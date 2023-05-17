@@ -21,9 +21,9 @@ The full list of changed entities can be seen at the bottom. This mod does not g
 ### Suggested Load Order
 
 * ModLoaderLite
-* **iguana_acs_fix**
-* **iguana_acs_functions**
-* **iguana_acs_features**
+* **[iguana_acs_fix](https://github.com/iguanacore/iguana_acs_fix)**
+* **[iguana_acs_functions](https://github.com/iguanacore/iguana_acs_functions)**
+* **[iguana_acs_features](https://github.com/iguanacore/iguana_acs_features)**
 * Anything else
 * Alternative Translations
 
@@ -33,9 +33,31 @@ Below is a list of changed entities. To revert a particular change from the mod,
 
 This **does not** include new entities.
 
+ ### Inspiration Trees
+
+ * Gong1, Node Gong1_b2 - Feng Shui Identification, adding of layered Nodes, a part of Focused Feng Shui restoration.
+
+### Scripts
+
+ * Scripts\Magic\class\Magic_FSItemCreate.lua - Focused Feng Shui Miracle script, reversed commented out parts, as a part of Focused Feng Shui restoration.
+
 ## List of new entities
 
+### Manuals (Esoterica)
 
+* Gong1_LvUpEsoterica_9_1 - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+
+### Miracles (Magic)
+
+* FengshuiItemClear - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+
+### Inspiration Trees
+
+* Gong1, Nodes Gong1_b2_1 and Gong1_b2_2 - Focused Feng Shui and Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+
+### Scripts
+
+* Scripts\Magic\class\Magic_FSItemCreate.lua - Focused Feng Shui Reversal Miracle script, a part of Focused Feng Shui restoration.
 
 ## How to Contribute
 
