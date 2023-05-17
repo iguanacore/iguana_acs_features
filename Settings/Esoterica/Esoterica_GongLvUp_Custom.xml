@@ -1,0 +1,14 @@
+<Esotericas><List>
+<Esoterica Name="Gong1_LvUpEsoterica_9_1">
+		<DisplayName>Focused Feng Shui Reversal</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_tianyan01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<GLevel>God2</GLevel>
+		<EffectDesc>[size=10][color=#D06508]Learn Miracle: Focused Feng Shui Reversal\nConcentrate your inner vital energies into physical form and clear Feng Shui properties from an item. However, as it hasn't withstood the test of time, the Miracle doesn't provide any additional effect.[/color][/size]</EffectDesc>
+		<Magics>
+			<li>FengshuiItemClear</li>
+		</Magics>
+	</Esoterica>
+</List></Esotericas>

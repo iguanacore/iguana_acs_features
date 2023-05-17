@@ -1,0 +1,15 @@
+<Magics><List>
+<Magic Name="FengshuiItemClear" Type="Class">
+		<DisplayName>Focused Feng Shui Reversal</DisplayName>
+		<Desc>Consume blood essence to remove Feng Shui Relic properties from an item. \n[color=#FF0000]As the ways of Heaven evolved over time, this Miracle no longer provides any additional effects.[/color]</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1><!-- 读条时间 -->
+		<CostAge>0</CostAge>
+		<SelectTarget>InLight|Item</SelectTarget>
+		<ClassName>Magic_FSItemClear</ClassName>
+		<TargetDesc>Select an item that is a Relic</TargetDesc>
+		<CostLing>0</CostLing>
+	</Magic>
+</List></Magics>

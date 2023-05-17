@@ -1,0 +1,13 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong1_b2">
+			<DisplayName>Feng Shui Identifying</DisplayName>
+		</Text>
+        <Text Name="Gong1_b2_1">
+			<DisplayName>Focused Feng Shui</DisplayName>
+		</Text>
+        <Text Name="Gong1_b2_2">
+			<DisplayName>Focused Feng Shui Reversal</DisplayName>
+		</Text>
+	</List>
+</Texts>

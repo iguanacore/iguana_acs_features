@@ -1,0 +1,36 @@
+<SkillTree><List>
+    <Node Name="Gong1_b2" Gong="Gong_1_Shui">
+		<Esoterica>Magic_FengshuiItemOpen</Esoterica>
+		<DisplayName>风水鉴定</DisplayName>
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong1_b2_1</li>
+            <li>Gong1_b2_2</li>
+		</Layers>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+    <Node Name="Gong1_b2_1" Gong="Gong_1_Shui">
+		<Esoterica>Gong1_LvUpEsoterica_9</Esoterica>
+		<DisplayName>风水凝练</DisplayName>
+		<!--Level>God</Level-->
+	</Node>
+    <Node Name="Gong1_b2_2" Gong="Gong_1_Shui">
+		<Esoterica>Gong1_LvUpEsoterica_9_1</Esoterica>
+		<DisplayName>风水凝练</DisplayName>
+		<!--Level>God2</Level-->
+	</Node>
+</List></SkillTree> 
