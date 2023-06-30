@@ -4,6 +4,7 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 ## Currently implemented changes
 
 * Focused Feng Shui restoration - Restores the Focused Feng Shui miracle, restores its place in Sixteen Steps. A temporary solution, also adds a Miracle to clear Relic Data.
+* Arrogant Obsession Shendao Fix - Adds a stage for the Shendao Laws before the Peak of Attainment, making it possible to get Arrogant multiple times.
 
 ## Install instructions
 
@@ -33,7 +34,11 @@ Below is a list of changed entities. To revert a particular change from the mod,
 
 This **does not** include new entities.
 
- ### Inspiration Trees
+### Laws/Gongs
+
+* All Shendao Gongs - Arrogant Obsession Shendao Fix
+
+### Inspiration Trees
 
  * Gong1, Node Gong1_b2 - Feng Shui Identification, adding of layered Nodes, a part of Focused Feng Shui restoration.
 

@@ -2,11 +2,11 @@
     "Name":"iguana_acs_features",
     "DisplayName":"Iguana's Overhaul, features",
     "GameVersion":1.24,
-    "Version":0.0,
+    "Version":0.1,
     "Desc": "A mod, consisting of new content for Amazing Cultivation Simulator, not just changes.\n\n[Changelog]\nListed in the README.MD, available on the repository.",
     "Author":"iguana",
 	"Tags":[
 		"Function"
 	],
-	"IncreasedDesc":"\n0.0: Initial Release"
+	"IncreasedDesc":"\n0.1: Initial Release"
 }
