@@ -1,0 +1,124 @@
+﻿<Gongs><List>
+	<Gong Name="God_Gong_3">  
+		<DisplayName>幽冥十方太乙救苦经</DisplayName>
+		<Desc>上古时期便已断绝的神道修行之术，乃是聚集众生信仰成就神性的法门。神修之法皆大同小异，不同传承只在神性灵引不同，可以引动各种天道之灵护佑。《幽冥十方太乙救苦经》乃幽祖传承，修习此法可借九幽灵引，召幽冥十方众灵护佑，侧重于护御之道。</Desc>
+		<SelectDesc>信仰修行之道不同于传统的金丹法修行，此法修行完全依赖于众生的信仰。信仰修行虽然对天资没有要求，但若要登峰造极，需要极高悟性才可，是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>-1,-1,-1,-1,-1</FiveBaseNeed>
+		<ElementKind>None</ElementKind>
+		<GongKind>God</GongKind>
+		<Hide>2</Hide>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>hufaciyu</li>
+		</Skill>
+		<GodGuards>
+			<li>Guard_Base_1</li>
+			<li>Guard_Base_2</li>
+			<li>Guard_Base_3</li>
+			<li>Guard_Base_4</li>
+			<li>Guard_Base_5</li>
+		</GodGuards>
+		<Magic>
+			<li>God_Xiuwei</li>
+			<li>God_XinZhai</li>
+		</Magic>
+		
+		<Stages>
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>苦行</DisplayName>
+				<Desc></Desc>
+				<Value>5000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>虔心</DisplayName>
+						<Desc></Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>GodPractice_Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>传道</DisplayName>
+				<Desc></Desc>
+				<Value>35000</Value>
+				<Necks>
+					<Neck Location="1" Kind="GodCity">
+						<DisplayName>开辟</DisplayName>
+						<Desc></Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+						<AddModifier>GodPractice_Gong_GodCity</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>				
+		
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>神国</DisplayName>
+				<Desc></Desc>
+				<Value>50000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>敕令：鬼差</DisplayName>
+						<Desc></Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>GodPractice_Gong3_1</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>敕令：鬼将</DisplayName>
+						<Desc></Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>GodPractice_Gong3_2</AddModifier>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>敕令：无常</DisplayName>
+						<Desc></Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>GodPractice_Gong3_3</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>敕令：判官</DisplayName>
+						<Desc></Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>GodPractice_Gong3_4</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>蜕凡</DisplayName>
+						<Desc></Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>GodPractice_Gong_God</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage4" Level="10">
+				<DisplayName>Pre-圆满</DisplayName>
+				<Desc></Desc>
+				<Value>1</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>蜕凡</DisplayName>
+						<Desc></Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>1</SuccessChange>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage5" Level="12">
+				<DisplayName>圆满</DisplayName>
+				<Desc></Desc>
+				<Value>1</Value>
+				<Necks>
+					<Neck Location="1" Kind="Die">
+						<DisplayName>无上</DisplayName>
+						<Desc></Desc>
+						<ThunderValue>480000</ThunderValue>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>
