@@ -33,4 +33,11 @@
 		<DisplayName>风水凝练</DisplayName>
 		<!--Level>God2</Level-->
 	</Node>
+	 <Node Name="Gong1_1_e0" Gong="Gong_1_Shui">
+		<Esoterica>IAF_GlowTreeCreator_Esoterica</Esoterica>
+		<DisplayName>Spiritual Wood Creation</DisplayName>
+		<Level>God2</Level>
+		<Index>0</Index>
+	</Node>
+
 </List></SkillTree> 

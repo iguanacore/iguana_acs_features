@@ -1,5 +1,5 @@
 <Magics><List>
-<Magic Name="FengshuiItemClear" Type="Class">
+	<Magic Name="IAF_FengshuiItemClear" Type="Class">
 		<DisplayName>Focused Feng Shui Reversal</DisplayName>
 		<Desc>Consume blood essence to remove Feng Shui Relic properties from an item. \n[color=#FF0000]As the ways of Heaven evolved over time, this Miracle no longer provides any additional effects.[/color]</Desc>
 		<Icon>res\Sprs\ui\icon_youcui01</Icon>
@@ -12,4 +12,30 @@
 		<TargetDesc>Select an item that is a Relic</TargetDesc>
 		<CostLing>0</CostLing>
 	</Magic>
+	<Magic Name="IAF_GlowTreeCreator" Type="Class">
+		<DisplayName>Spiritual Wood Creation</DisplayName>
+		<Desc>Consume blood essence to add spirituality to a plant. \n[color=#FF0000]As the ways of Heaven evolved over time, this Miracle no longer provides any additional effects.[/color]</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1><!-- 读条时间 -->
+		<CostAge>0</CostAge>
+		<SelectTarget>InLight|Plant</SelectTarget>
+		<ClassName>Magic_GlowTreeCreator</ClassName>
+		<TargetDesc>Select a non-spiritual Plant</TargetDesc>
+		<CostLing>0</CostLing>
+	</Magic>
+	<!--Magic Name="IAF_GlowTreeRemover" Type="Class">
+		<DisplayName>Focused Feng Shui Reversal</DisplayName>
+		<Desc>Consume blood essence to remove Feng Shui Relic properties from an item. \n[color=#FF0000]As the ways of Heaven evolved over time, this Miracle no longer provides any additional effects.[/color]</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1>
+		<CostAge>0</CostAge>
+		<SelectTarget>InLight|Item</SelectTarget>
+		<ClassName>Magic_FSItemClear</ClassName>
+		<TargetDesc>Select an item that is a Relic</TargetDesc>
+		<CostLing>0</CostLing>
+	</Magic-->
 </List></Magics>

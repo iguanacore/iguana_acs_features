@@ -51,10 +51,12 @@ This **does not** include new entities.
 ### Manuals (Esoterica)
 
 * Gong1_LvUpEsoterica_9_1 - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+* IAF_GlowTreeCreator_Esoterica - Spiritual Wood Creation
 
 ### Miracles (Magic)
 
-* FengshuiItemClear - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+* IAF_FengshuiItemClear - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+* IAF_GlowTreeCreator - Spiritual Wood Creation
 
 ### Inspiration Trees
 
@@ -63,6 +65,7 @@ This **does not** include new entities.
 ### Scripts
 
 * Scripts\Magic\class\Magic_FSItemCreate.lua - Focused Feng Shui Reversal Miracle script, a part of Focused Feng Shui restoration.
+* Scripts\Magic\class\Magic_GlowTreeCreator.lua - Spiritual Wood Creation script
 
 ## How to Contribute
 
