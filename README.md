@@ -5,6 +5,8 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 
 * Focused Feng Shui restoration - Restores the Focused Feng Shui miracle, restores its place in Sixteen Steps. A temporary solution, also adds a Miracle to clear Relic Data.
 * Arrogant Obsession Shendao Fix - Adds a stage for the Shendao Laws before the Peak of Attainment, making it possible to get Arrogant multiple times.
+* Spiritual Wood Creation - Adds a Miracle for converting regular Trees into Spiritual Trees. Still a Work in Progress.
+* Custom Titles - A rework of an existing CN mod, makes it possible to add a custom title for your Disciples.
 
 ## Install instructions
 
@@ -36,42 +38,52 @@ This **does not** include new entities.
 
 ### Laws/Gongs
 
-* All Shendao Gongs - Arrogant Obsession Shendao Fix
+* All Shendao `Gongs` - Arrogant Obsession Shendao Fix
 
 ### Inspiration Trees
 
- * Gong1, Node Gong1_b2 - Feng Shui Identification, adding of layered Nodes, a part of Focused Feng Shui restoration.
+ * `Gong1`, Node `Gong1_b2` - Feng Shui Identification, adding of layered Nodes, a part of Focused Feng Shui restoration.
 
 ### Scripts
 
- * Scripts\Magic\class\Magic_FSItemCreate.lua - Focused Feng Shui Miracle script, reversed commented out parts, as a part of Focused Feng Shui restoration.
+ * `Scripts\Magic\class\Magic_FSItemCreate.lua` - Focused Feng Shui Miracle script, reversed commented out parts, as a part of Focused Feng Shui restoration.
+
+### Functions
+
+Modifications applied by `iguana_acs_features.dll`.
+
+* `Wnd_NpcInfo.SetTitle` - Custom Titles, a prefix.
 
 ## List of new entities
 
 ### Manuals (Esoterica)
 
-* Gong1_LvUpEsoterica_9_1 - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
-* IAF_GlowTreeCreator_Esoterica - Spiritual Wood Creation
+* `Gong1_LvUpEsoterica_9_1` - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+* `IAF_GlowTreeCreator_Esoterica` - Spiritual Wood Creation
 
 ### Miracles (Magic)
 
-* IAF_FengshuiItemClear - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
-* IAF_GlowTreeCreator - Spiritual Wood Creation
+* `IAF_FengshuiItemClear` - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+* `IAF_GlowTreeCreator` - Spiritual Wood Creation
 
 ### Inspiration Trees
 
-* Gong1, Nodes Gong1_b2_1 and Gong1_b2_2 - Focused Feng Shui and Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
+* `Gong1`, Nodes `Gong1_b2_1` and `Gong1_b2_2` - Focused Feng Shui and Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
 
 ### Scripts
 
-* Scripts\Magic\class\Magic_FSItemCreate.lua - Focused Feng Shui Reversal Miracle script, a part of Focused Feng Shui restoration.
-* Scripts\Magic\class\Magic_GlowTreeCreator.lua - Spiritual Wood Creation script
+* `Scripts\Magic\class\Magic_FSItemCreate.lua` - Focused Feng Shui Reversal Miracle script, a part of Focused Feng Shui restoration.
+* `Scripts\Magic\class\Magic_GlowTreeCreator.lua` - Spiritual Wood Creation script
+
+### Other
+
+* `Language\OfficialEnglish\codedictionary.txt` - Custom Titles
 
 ## How to Contribute
 
 Any Issues/Pull Requests are welcome. To ensure a similar level of quality between all parts of the mod, here's a few guidelines.
 
 When changing vanilla aspects, keep in line with the original naming logic.
-* If the original was MapStory_Item.xml, the PR should use the same filename with MapStory_Item.xml.
+* If the original was `MapStory_Item.xml`, the PR should use the same filename with `MapStory_Item.xml`.
 
 If the fixes exist as a standalone mod, include a link to it.
