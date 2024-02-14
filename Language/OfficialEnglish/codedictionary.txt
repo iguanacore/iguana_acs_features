@@ -1,0 +1,7 @@
+Key	Value
+增加称号	Add Title
+请输入称号	Enter Title
+自定义称号	Custom Title
+选择称号	Select Title
+增加一个自定义称号	Add a Custom Title
+自定义标题	A Custom Title
