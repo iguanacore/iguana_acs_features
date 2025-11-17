@@ -1,0 +1,17 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Story_Item_StoneBox2">
+			<DisplayName>Ancient Casket</DisplayName>
+			<Desc>A stone casket dug out of the boulder that looked like it had been there for decades. Who knows what contents it holds.</Desc>
+			<Selections.0.Display>Open (Vanilla, RNG)</Selections.0.Display>
+            <Selections.1.Display>Open (ItemCache4 Elixir)</Selections.1.Display>
+            <Selections.2.Display>Open (ItemCache3 Treasure)</Selections.2.Display>
+            <Selections.3.Display>Open (Spirit Relic)</Selections.3.Display>
+            <Selections.4.Display>Open (ItemCache1 Manual)</Selections.4.Display>
+            <Selections.5.Display>Open (ItemCache2 Manual)</Selections.5.Display>
+            <Selections.6.Display>Open (Unorthodox Manual)</Selections.6.Display>
+            <Selections.7.Display>Open (HSL or Miracle)</Selections.7.Display>
+            <Selections.8.Display>Open (NSS or Miracle)</Selections.8.Display>
+		</Text>
+    </List>
+</Texts>

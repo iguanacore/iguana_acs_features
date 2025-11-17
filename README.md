@@ -9,6 +9,7 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 * Custom Titles - A rework of an existing CN mod, makes it possible to add a custom title for your Disciples.
 * Qi Barrier Attachment Mod - Adds 3 new Qi Barrier Attachments, based on a previous fix. Scaled linearly compared to the existing barriers.
 * Additional Growable Plants - Adds existing plants (but currently not added) to Field & Herb Garden.
+* Various Debug Items - Adds a bunch of debugging related items, not accessible during regular gameplay. Requires a method to spawn them in, like ModModifier. Also includes Ancient Casket Descummer.
 
 ## Install instructions
 
@@ -46,6 +47,10 @@ This **does not** include new entities.
 
  * `Gong1`, Node `Gong1_b2` - Feng Shui Identification, adding of layered Nodes, a part of Focused Feng Shui restoration.
 
+### MapStories
+
+* `Story_Item_StoneBox2` - Varioud Debug Items, Ancient Casket descummer in particular.
+
 ### Scripts
 
  * `Scripts\Magic\class\Magic_FSItemCreate.lua` - Focused Feng Shui Miracle script, reversed commented out parts, as a part of Focused Feng Shui restoration.
@@ -62,15 +67,27 @@ Modifications applied by `iguana_acs_features.dll`.
 
 ## List of new entities
 
+### Things
+
+* `iaf_Item_Debugging_StoryCasket`, `iaf_Item_Debugging_WuXingLingWu` - Various Debug Items, currently commented out.
+
+### MapStories
+
+* `iaf_Story_Item_Debugging_StoryCasket`, `iaf_Story_Item_WuXingLingWu` - Various Debug Items.
+
 ### Manuals (Esoterica)
 
 * `Gong1_LvUpEsoterica_9_1` - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
-* `IAF_GlowTreeCreator_Esoterica` - Spiritual Wood Creation
+* `IAF_GlowTreeCreator_Esoterica` - Spiritual Wood Creation.
 
 ### Miracles (Magic)
 
 * `IAF_FengshuiItemClear` - Focused Feng Shui Reversal, a part of Focused Feng Shui restoration.
-* `IAF_GlowTreeCreator` - Spiritual Wood Creation
+* `IAF_GlowTreeCreator` - Spiritual Wood Creation.
+
+### Modifiers
+
+* `iaf_debug_wudangyavismod`, `iaf_debug_fupikongvismod` - For Various Debug Items, currently commented out.
 
 ### Inspiration Trees
 
@@ -79,12 +96,12 @@ Modifications applied by `iguana_acs_features.dll`.
 ### Scripts
 
 * `Scripts\Magic\class\Magic_FSItemCreate.lua` - Focused Feng Shui Reversal Miracle script, a part of Focused Feng Shui restoration.
-* `Scripts\Magic\class\Magic_GlowTreeCreator.lua` - Spiritual Wood Creation script
+* `Scripts\Magic\class\Magic_GlowTreeCreator.lua` - Spiritual Wood Creation script.
 
 ### Other
 
-* `Language\OfficialEnglish\codedictionary.txt` - Custom Titles
-* `Settings\Practice\FabaoHelian\FabaoHelian.txt` and `Language\OfficialEnglish\Settings\Practice\FabaoHelian\FabaoHelian.txt` - ID 75, 76, 77, new attachments for Qi Barrier Attachment Mod
+* `Language\OfficialEnglish\codedictionary.txt` - Custom Titles.
+* `Settings\Practice\FabaoHelian\FabaoHelian.txt` and `Language\OfficialEnglish\Settings\Practice\FabaoHelian\FabaoHelian.txt` - ID 75, 76, 77, new attachments for Qi Barrier Attachment Mod.
 
 ## How to Contribute
 

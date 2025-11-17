@@ -1,0 +1,159 @@
+<Stories><List>	
+		<Story Name="iaf_Story_Item_Debugging_StoryCasket" Parent="BaseFillingStory">
+		<DisplayName>Casket of Certain Items</DisplayName>
+		<Desc>An Otherwordly casket, for spawning in Items with special requirements. Select the related event.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Divinity Mind</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropSpell(2,"Spell_MindState2_LunHui",1);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>1st GC Artifacts (Swords and bracelet)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_JinJing",XT("Golden Tortoise Sword"),XT("One of the Swords of the Five Elements. The Primordial Spirit of the Golden Tortoise is sealed within, it is swift without compare."),1,10);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_MuJing",XT("Jade Centipede Sword"),XT("One of the Swords of the Five Elements. The Primordial Spirit of the Jade Centipede is sealed within, it is replete with Qi."),1,10);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_ShuiJing",XT("Black Dragon Sword"),XT("One of the Swords of the Five Elements. The Primordial Spirit of the Black Dragon is sealed within, it is as flexible as can be."),1,10);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_HuoJing",XT("Fire Phoenix Sword"),XT("One of the Swords of the Five Elements. The Primordial Spirit of the Fire Phoenix is sealed within, its might is boundless."),1,10);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_TuJing",XT("Earth Kirin Sword"),XT("One of the Swords of the Five Elements. The Primordial Spirit of the Kirin is sealed within, its potential is fearsome."),1,10);
+				me:DropFabao(0,"Item_Bracelet","Item_ThunderAir",XT("Chaos Chisel"),XT("A rare treasure, this item was formed from the Heaven's Breath."),1,12);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Sword Tomb Swords</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_ShuiJing","",XT("The divine sword that had sleeping soundly for so many years in Mt. Shu's Bladesmith Tomb had been awakened by the strong desire to use a sword well."),1,12);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_HuoJing","",XT("The divine sword that had sleeping soundly for so many years in Mt. Shu's Bladesmith Tomb had been awakened by the strong desire to use a sword well."),1,12);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_MuJing","",XT("The divine sword that had sleeping soundly for so many years in Mt. Shu's Bladesmith Tomb had been awakened by the strong desire to use a sword well."),1,12);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_TuJing","",XT("The divine sword that had sleeping soundly for so many years in Mt. Shu's Bladesmith Tomb had been awakened by the strong desire to use a sword well."),1,12);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_JinJing","",XT("The divine sword that had sleeping soundly for so many years in Mt. Shu's Bladesmith Tomb had been awakened by the strong desire to use a sword well."),1,12);
+				me:DropFabao(0,"Item_WeaponSword","Item_Other_NoneJing","",XT("The divine sword that had sleeping soundly for so many years in Mt. Shu's Bladesmith Tomb had been awakened by the strong desire to use a sword well."),1,12);
+				me:DropFabao(0, "Item_WeaponSword", "Item_CopperRock", XT("Dragon Wing"), XT("As sharp as a Dragon's wing."), 10, 8);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Leonardus' Divine Sword</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropFabao(0,"Item_WeaponSword","Item_ExtremeJade",XT("Leonardus' Divine Sword"),XT("This is the sword carried four thousand years ago by the miracle man and elder Leonardus, who was said to have had deficient mental capabilities from birth, leaving him with the intellect equivalent to an eight-year-old child. But he had Fortuitous Encounters one after the other and began down the Law of the Tao with the mind of a newborn babe. His Cultivation ultimately led to his ascension at Safeward Seas."),1,12);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Dagger of the Earthbound Universe</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropFabao(0,"Item_WeaponKnife","Item_LingCrystalBlock",XT("Dagger of the Earthbound Universe"),XT("It is said that this Artifact was used by an ancient Immortal named Nangong Hong to Survive Tribulation. \n[color=#D06508]This is in appreciation of the first player to successfully Survive Tribulation: Emerald Palace[/color]"),1,9,1);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Cave heart</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropFabao(0,"Item_WeaponSword","Item_ParasolWood",XT("Cave heart"),XT("In the past, the master of Mixed Elements had this treasure upon his person and then it became lost in this Wormwrought Valley for millenia."),1,12);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Dragon Pearl</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropFabao(0,"Item_SoulPearl",nil,XT("Dragon Pearl"),XT("Who knows how long the pill had been sitting at the bottom of Poison Dragon Lake and who knows where it truly came from."),1,12);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Rainmaker</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] opened the Casket."));
+				me:DropAwardItem("SP_Sword2",1,"Item_Other_BuZhiMing", -1,1);
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+    <Story Name="iaf_Story_Item_WuXingLingWu" Parent="BaseFillingStory">
+		<DisplayName>Debugging of Spirit Root Acquisition Manual</DisplayName>
+		<Desc>Select option for debugging. Setting the values removes the item.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Set all flags to -1999</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] had the flags set to:"));
+                me:SetFlag(50,-1999);
+                me:AddMsg(XT("FLAG 50 to -1999"));
+                me:SetFlag(51,-1999);
+                me:AddMsg(XT("FLAG 51 to -1999"));           
+                me:SetFlag(52,-1999);
+                me:AddMsg(XT("FLAG 52 to -1999"));
+                me:SetFlag(53,-1999);
+                me:AddMsg(XT("FLAG 53 to -1999"));
+                me:SetFlag(54,-1999);
+                me:AddMsg(XT("FLAG 54 to -1999"));
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Set all flags to 1999</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] had the flags set to"));
+                me:SetFlag(50,1999);
+                me:AddMsg(XT("FLAG 50 to 1999"));
+                me:SetFlag(51,1999);
+                me:AddMsg(XT("FLAG 51 to 1999"));           
+                me:SetFlag(52,1999);
+                me:AddMsg(XT("FLAG 52 to 1999"));
+                me:SetFlag(53,1999);
+                me:AddMsg(XT("FLAG 53 to 1999"));
+                me:SetFlag(54,1999);
+                me:AddMsg(XT("FLAG 54 to 1999"));
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>List flag values</Display>
+				<OKResult>
+				<![CDATA[	
+                me:AddMsg(XT("[NAME] has the flags at:"));
+                
+                me:AddMsg(XT("FLAG 50 at {0}"),(me:GetFlag(50)));
+                me:AddMsg(XT("FLAG 51 at {0}"),(me:GetFlag(51)));
+                me:AddMsg(XT("FLAG 52 at {0}"),(me:GetFlag(52)));
+                me:AddMsg(XT("FLAG 53 at {0}"),(me:GetFlag(53)));
+                me:AddMsg(XT("FLAG 54 at {0}"),(me:GetFlag(54)));
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

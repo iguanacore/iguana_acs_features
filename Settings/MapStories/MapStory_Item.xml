@@ -1,0 +1,125 @@
+<Stories><List>	
+	<Story Name="Story_Item_StoneBox2" Parent="BaseFillingStory">
+		<DisplayName>古旧石匣</DisplayName>
+		<Desc>从山岩之中挖掘出来的石匣，看上去有些年代了，不知道里面有什么东西。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:RandomInt(1, 24); 
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+				if nR <= 4 then
+					me:AddMsg(XT("[NAME]打开石匣，发现其中装有一瓶丹药。"));me:DropAwardItemFromCache(story.ItemCache4, 1);
+				elseif nR <= 8 then
+					me:AddMsg(XT("[NAME]打开石匣，发现其中藏有一些珍贵的材料。"));me:DropAwardItemFromCache(story.ItemCache3, 1);
+				elseif nR <= 12 then
+					me:AddMsg(XT("[NAME]打开石匣，发现其中藏有一件古代奇珍，竟然可以镇压风水。"));me:DropRandomItem(tIL[world:RandomInt(1,#tIL+1)], 7, 11, true);
+				elseif nR <= 15 then
+					me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一本书册。"));me:DropEsotericFromCache(story.ItemCache, 1);
+				elseif nR <= 18 then
+					me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一门神通。"));me:DropEsotericFromCache(story.ItemCache2, 1);
+				elseif nR <= 21 then
+					me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一本秘籍。"));me:DropRandomItem("Esoterica");
+				elseif nR <= 22 then
+					if world:IsGongUnLocked("Gong_5_Tu") == false then
+						me:AddMsg(XT("[NAME]打开石匣，瞬间一道七彩光华直冲云霄，这平凡无奇的石匣中竟然藏有一本上古失传的功法传承。"));me:UnLockGong("Gong_5_Tu");   
+					else
+						me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一门神通。"));me:DropEsotericFromCache(story.ItemCache2, 1);
+					end
+				else
+					if world:IsGongUnLocked("God_Gong_3") == false then
+						me:AddMsg(XT("[NAME]打开石匣，瞬间一道七彩光华直冲云霄，这平凡无奇的石匣中竟然藏有一本上古失传的功法传承。"));me:UnLockGong("God_Gong_3");   
+					else
+						me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一门神通。"));me:DropEsotericFromCache(story.ItemCache2, 1);
+					end
+				end
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+                me:AddMsg(XT("[NAME]打开石匣，发现其中装有一瓶丹药。"));me:DropAwardItemFromCache(story.ItemCache4, 1);
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+                me:AddMsg(XT("[NAME]打开石匣，发现其中藏有一些珍贵的材料。"));me:DropAwardItemFromCache(story.ItemCache3, 1);
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+                me:AddMsg(XT("[NAME]打开石匣，发现其中藏有一件古代奇珍，竟然可以镇压风水。"));me:DropRandomItem(tIL[world:RandomInt(1,#tIL+1)], 7, 11, true);
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+                me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一本书册。"));me:DropEsotericFromCache(story.ItemCache, 1);
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+                me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一门神通。"));me:DropEsotericFromCache(story.ItemCache2, 1);
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+                me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一本秘籍。"));me:DropRandomItem("Esoterica");
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+                if world:IsGongUnLocked("Gong_5_Tu") == false then
+						me:AddMsg(XT("[NAME]打开石匣，瞬间一道七彩光华直冲云霄，这平凡无奇的石匣中竟然藏有一本上古失传的功法传承。"));me:UnLockGong("Gong_5_Tu");   
+					else
+						me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一门神通。"));me:DropEsotericFromCache(story.ItemCache2, 1);
+					end
+				]]>		
+				</OKResult>
+			</li>
+            <li>
+				<Display>打开</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+                if world:IsGongUnLocked("God_Gong_3") == false then
+						me:AddMsg(XT("[NAME]打开石匣，瞬间一道七彩光华直冲云霄，这平凡无奇的石匣中竟然藏有一本上古失传的功法传承。"));me:UnLockGong("God_Gong_3");   
+					else
+						me:AddMsg(XT("[NAME]打开石匣，竟然在其中发现一门神通。"));me:DropEsotericFromCache(story.ItemCache2, 1);
+					end
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

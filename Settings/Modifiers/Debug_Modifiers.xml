@@ -1,0 +1,20 @@
+<ModifierDefs><List>
+	<!--Modifier Name="iaf_debug_wudangyavismod" Type="Normal">
+		<DisplayName>Duck Shapeshift</DisplayName>
+        <Desc>Look like a Duck. No additional effects.</Desc>
+		<MaxStack>0</MaxStack>
+		<NpcModPath>Mod/Npc/Wudangya/Base</NpcModPath>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+	</Modifier>
+    <Modifier Name="iaf_debug_fupikongvismod" Type="Normal">
+		<DisplayName>Fu Pikong Shapeshift</DisplayName>
+        <Desc>Look like Fu Pikong. No additional effects.</Desc>
+		<MaxStack>0</MaxStack>
+		<NpcModPath>Mod/Npc/Hero1/Base</NpcModPath>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+	</Modifier--> 
+</List></ModifierDefs>
