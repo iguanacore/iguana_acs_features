@@ -1,0 +1,9 @@
+Group	Area	Name
+所属组	所属区域	植物名
+Normal	Plant	TreeGinkgo_Big
+Normal	Plant	TreePine_Big
+Normal	Plant	IceGrass
+Normal	Plant	ShiChe
+Normal	Plant	CongRong
+Normal	Plant	CamelSting
+Normal	DisciplePlant	Raspberry
