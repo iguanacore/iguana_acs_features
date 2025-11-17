@@ -7,6 +7,7 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 * Arrogant Obsession Shendao Fix - Adds a stage for the Shendao Laws before the Peak of Attainment, making it possible to get Arrogant multiple times.
 * Spiritual Wood Creation - Adds a Miracle for converting regular Trees into Spiritual Trees. Still a Work in Progress.
 * Custom Titles - A rework of an existing CN mod, makes it possible to add a custom title for your Disciples.
+* Qi Barrier Attachment Mod - Adds 3 new Qi Barrier Attachments, based on a previous fix. Scaled linearly compared to the existing barriers. 
 
 ## Install instructions
 
@@ -78,6 +79,7 @@ Modifications applied by `iguana_acs_features.dll`.
 ### Other
 
 * `Language\OfficialEnglish\codedictionary.txt` - Custom Titles
+* `Settings\Practice\FabaoHelian\FabaoHelian.txt` and `Language\OfficialEnglish\Settings\Practice\FabaoHelian\FabaoHelian.txt` - ID 75, 76, 77, new attachments for Qi Barrier Attachment Mod
 
 ## How to Contribute
 

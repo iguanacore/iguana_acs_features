@@ -1,0 +1,6 @@
+ID	Type	Kind	Name	fParam	fParam2	Lv	Des	Disname
+	分类	词条类型	词条名称	数值1:秘籍：道行最小值；属性：addv	数值2:秘籍：道行最大值；属性：addp	等级		
+-1	None	None	None	0		1	模组丢失	模组丢失
+75	Disciple	Special	LingDun	2000	2000	4	将开启一个巨大量灵气护盾的能力额外附加在此物之上。(本体不会失去此能力）	灵气护体:巨大
+76	Disciple	Special	LingDun	2500	2500	5	将开启一个重大量灵气护盾的能力额外附加在此物之上。(本体不会失去此能力）	灵气护体:重大
+77	Disciple	Special	LingDun	3000	3000	6	将开启一个极端量灵气护盾的能力额外附加在此物之上。(本体不会失去此能力）	灵气护体:极端
