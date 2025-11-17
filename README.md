@@ -7,7 +7,8 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 * Arrogant Obsession Shendao Fix - Adds a stage for the Shendao Laws before the Peak of Attainment, making it possible to get Arrogant multiple times.
 * Spiritual Wood Creation - Adds a Miracle for converting regular Trees into Spiritual Trees. Still a Work in Progress.
 * Custom Titles - A rework of an existing CN mod, makes it possible to add a custom title for your Disciples.
-* Qi Barrier Attachment Mod - Adds 3 new Qi Barrier Attachments, based on a previous fix. Scaled linearly compared to the existing barriers. 
+* Qi Barrier Attachment Mod - Adds 3 new Qi Barrier Attachments, based on a previous fix. Scaled linearly compared to the existing barriers.
+* Additional Growable Plants - Adds existing plants (but currently not added) to Field & Herb Garden.
 
 ## Install instructions
 
@@ -54,6 +55,10 @@ This **does not** include new entities.
 Modifications applied by `iguana_acs_features.dll`.
 
 * `Wnd_NpcInfo.SetTitle` - Custom Titles, a prefix.
+
+### Other
+
+* `Settings\PlantGroups\PlantGroup.txt` - Addition of both Giant Trees, Desert and Ice flowers to fields, Amber Fruit to Herb Garden.
 
 ## List of new entities
 
