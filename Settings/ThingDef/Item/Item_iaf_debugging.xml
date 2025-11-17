@@ -1,0 +1,79 @@
+<ThingDefs><List>    
+<ThingDef Type="Item" Name="iaf_Item_Debugging_StoryCasket" Parent="MaterialBase">
+		<ThingName>Casket of Certain Items</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_shixiazi01</TexPath>
+		<Desc>An Otherwordly casket, for spawning in Items with special requirements.</Desc>	
+		<HideInOtherWorld>1</HideInOtherWorld>
+		<Beauty>1</Beauty>	
+		<Rate>9</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		
+		<IllustratedHandLabel>Dele</IllustratedHandLabel>
+		<Item Lable="Other">	
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>Box</FabaoSuffix>				
+		</Item>
+		<StoryBnts>
+			<li Name="Open" Desc="Open the Casket" Story="iaf_Story_Item_Debugging_StoryCasket" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+    <ThingDef Type="Item" Name="iaf_Item_Debugging_WuXingLingWu" Parent="MaterialBase">
+		<ThingName>Spirit Root Debugger</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_shixiazi01</TexPath>
+		<Desc>An Otherwordly casket, used to debug Spirit Root Manual acquisition.</Desc>	
+		<HideInOtherWorld>1</HideInOtherWorld>
+		<Beauty>1</Beauty>	
+		<Rate>9</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		
+		<IllustratedHandLabel>Dele</IllustratedHandLabel>
+		<Item Lable="Other">	
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>Box</FabaoSuffix>				
+		</Item>
+		<StoryBnts>
+			<li Name="Use" Desc="Interact with the Casket" Appoint="2" Story="iaf_Story_Item_WuXingLingWu" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+
+	<!--ThingDef Type="Item" Name="iaf_Item_Debugging_wudangyavismod" Parent="ToolBase">
+	<IllustratedHandLabel>Dele</IllustratedHandLabel>
+	<ThingName>Shapeshift: Duck</ThingName>
+	<MaxStack>1</MaxStack>
+	<Beauty>5</Beauty>
+	<Rate>12</Rate>
+	<ElementKind>None</ElementKind>
+	<TexPath>res\Sprs\object\object_yuepu01</TexPath>
+	<Desc>Tool, changes NPC model to Wudang Duck when held in inventory.</Desc>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<ToolModifier>iaf_debug_wudangyavismod</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="iaf_Item_Debugging_fupikongvismod" Parent="ToolBase">
+	<IllustratedHandLabel>Dele</IllustratedHandLabel>
+	<ThingName>Shapeshift: Fu Pikong</ThingName>
+	<MaxStack>1</MaxStack>
+	<Beauty>5</Beauty>
+	<Rate>12</Rate>
+	<ElementKind>None</ElementKind>
+	<TexPath>res\Sprs\object\object_yuepu01</TexPath>
+	<Desc>Tool, changes NPC model to Fu Pikong when held in inventory.</Desc>
+	<Item Kind="Equipment">
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<ToolModifier>iaf_debug_fupikongvismod</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef-->
+</List></ThingDefs>
