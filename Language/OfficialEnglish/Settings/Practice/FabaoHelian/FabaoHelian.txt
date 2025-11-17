@@ -1,0 +1,6 @@
+ID	Des	Disname
+		
+-1	Empty	Empty
+75	Bestow the artifact with an additional great Qi Shield. (The original will not lose this ability)	Qi Shield: Great
+76	Bestow the artifact with an additional major Qi Shield. (The original will not lose this ability)	Qi Shield: Major
+77	Bestow the artifact with an additional extreme Qi Shield. (The original will not lose this ability)	Qi Shield: Extreme
