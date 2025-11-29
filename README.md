@@ -12,6 +12,7 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 * Various Debug Items - Adds a bunch of debugging related items, not accessible during regular gameplay. Requires a method to spawn them in, like ModModifier. Also includes Ancient Casket Descummer.
 * Shendao Guard Derandomizer - Adds a building (Wild God Temple, under Sect) where you can convert Obsession Gems into Shendao Guard granting items. Alternative CN [available on the Workshop.](https://steamcommunity.com/sharedfiles/filedetails/?id=2019311555)
 * Physical Secret Body Derandomizer - Adds a building (Barbarian Statue, under Sect), where you can craft Secred Body recipes for Physical Cultivators. Alternative CN [availeble on the Workshop.](https://steamcommunity.com/sharedfiles/filedetails/?id=2306399532)
+* ZhenInvasion - Adds a building (Pagoda of Formations), where you can trigger an enemy invasion. 
 
 ## Install instructions
 
@@ -105,6 +106,7 @@ Modifications applied by `iguana_acs_features.dll`.
 
 * `Scripts\Magic\class\Magic_FSItemCreate.lua` - Focused Feng Shui Reversal Miracle script, a part of Focused Feng Shui restoration.
 * `Scripts\Magic\class\Magic_GlowTreeCreator.lua` - Spiritual Wood Creation script.
+* `Scripts\iaf_ZhenInvasion.lua` - ZhenInvasion related scripts.
 
 ### Other
 
