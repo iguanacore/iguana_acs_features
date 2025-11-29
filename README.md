@@ -75,11 +75,13 @@ Modifications applied by `iguana_acs_features.dll`.
 * `Building_WileShrine` - Wild God Temple, for Shendao Guard Derandomizer.
 * `Building_Body_Learn` - Barbarian Statue, for Physical SB Derandomizer.
 * `Settings\ThingDef\Item\Item_iaf_derandom.xml` - Shendao Guard Derandomizer, Physical SB Derandomizer items.
+* `Building_Tower1_Invasion` - Pagoda of Formations, for ZhenInvasion.
 
 ### MapStories
 
 * `iaf_Story_Item_Debugging_StoryCasket`, `iaf_Story_Item_WuXingLingWu` - Various Debug Items.
 * `Settings\MapStories\MapStory_iaf_derandom.xml` - Shendao Guard Derandomizer, Physical SB Derandomizer stories.
+* `iaf_ZhenInvasion` - ZhenInvasion main event.
 
 ### Manuals (Esoterica)
 

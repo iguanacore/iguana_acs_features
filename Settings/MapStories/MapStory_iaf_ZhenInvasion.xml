@@ -1,0 +1,61 @@
+<Stories><List>	
+<Story Name="iaf_ZhenInvasion">
+		<DisplayName>Pagoda of Formations exploration</DisplayName>
+		<Desc>[NAME] went into the Pagoda. A large amount of Arrays can be seen.</Desc>
+		<Kind>None</Kind>
+        <Selections>
+            <li>
+				<Display>Inspect the green Array</Display>
+				<OKResult>
+				<![CDATA[
+                me:AddMsg(XT("[NAME] went to inspect the green Array. Unfortunately their understanding was too low, and they triggered a trap. Enemies have appeared."));
+                ZhenInvasion.CallInvasionLevel(1);
+                ]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Inspect the blue Array</Display>
+				<OKResult>
+				<![CDATA[
+                me:AddMsg(XT("[NAME] went to inspect the blue Array. Unfortunately their understanding was too low, and they triggered a trap. Enemies have appeared."));
+                ZhenInvasion.CallInvasionLevel(2);
+                ]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Inspect the purple Array</Display>
+				<OKResult>
+				<![CDATA[
+                me:AddMsg(XT("[NAME] went to inspect the purple Array. Unfortunately their understanding was too low, and they triggered a trap. Enemies have appeared."));
+                ZhenInvasion.CallInvasionLevel(3);
+                ]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Inspect the orange Array</Display>
+				<OKResult>
+				<![CDATA[
+                me:AddMsg(XT("[NAME] went to inspect the orange Array. Unfortunately their understanding was too low, and they triggered a trap. Enemies have appeared."));
+                ZhenInvasion.CallInvasionLevel(4);
+                ]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Inspect the basic pink Array</Display>
+				<OKResult>
+				<![CDATA[
+                me:AddMsg(XT("[NAME] went to inspect the basic pink Array. Unfortunately their understanding was too low, and they triggered a trap. Enemies have appeared."));
+                ZhenInvasion.CallInvasionLevel(5);
+                ]]>
+				</OKResult>
+			</li>
+            <li>
+				<Display>Leave</Display>
+				<OKResult><![CDATA[
+				me:AddMsg(XT("[NAME] decided to ignore the Arrays and left the Pagoda."));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>
