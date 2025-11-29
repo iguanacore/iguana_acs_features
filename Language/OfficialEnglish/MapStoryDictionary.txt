@@ -66,3 +66,6 @@ Key	Value
 [NAME]成功引动了金罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Metal Guardian and turned them into a Divine Realm Guard.
 [NAME]成功引动了火罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Fire Guardian and turned them into a Divine Realm Guard.
 [NAME]成功引动了土罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Earth Guardian and turned them into a Divine Realm Guard.
+[NAME]无法参悟此中奥义。	[NAME] could not comprehend the profundity.
+[NAME]成功参悟了体修奥义	[NAME] successfully comprehended the profundity.
+[NAME]还是决定放弃参悟奥义。	[NAME] decided to give up on comprehending the profundity.

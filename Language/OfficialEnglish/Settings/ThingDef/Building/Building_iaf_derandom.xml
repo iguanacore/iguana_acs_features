@@ -62,5 +62,62 @@
         <Building.Produces.Produce.Display>Fire Guardian</Building.Produces.Produce.Display>
         <Building.Produces.Produce.Display>Earth Guardian</Building.Produces.Produce.Display>
     </Text>
+
+<Text Name="Building_Body_Learn" sParam="Building">
+      <ThingName>Barbarian Statue</ThingName>
+      <Desc>A savage and fierce god, can give the world profound knowledge.</Desc>
+      <Building.Produces.Produce.Display>Mixed Element Arm - Left</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Mixed Element Arm - Right</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Directional Concord Measure</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>The Five Elements Fists</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Eagle Bear Combine Form</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Luster of Yang Heart</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Glaze of Yin Heart</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Heavenly Dragon Spine</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Heaven and Earth Furnace</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Stark Root Legs</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Dark Turtle Shell</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Void Thundercatch Hand - Left</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Void Thundercatch Hand - Right</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Wild Shock Leg - Left</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Wild Shock Leg - Right</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Realm Cross Hand - Left</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Realm Cross Hand - Right</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Heavenly Reins Top</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Heavenly Shield Leg - Left</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Heavenly Shield Leg - Right</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Qi Devourer Circle</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Indestructible Oneness Body</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Firestruck Blood</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Barbarian God Heart</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Barbarian Will</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Polar Eyes</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Devouring Mouth</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Demon Poison Fang</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Shadow Slayer Tail</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Void Rupture Claw</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Peak Step</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Demonic Radiance Bristles</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Bonerust Wind</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Chaotic Shell</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Demonshield Scale</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Impremanence Feather</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Illusion Will</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Bestial Breath</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Astral Tail</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Ethereal Hand - Left</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Ethereal Hand - Right</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Divine Blaze Palm - Left</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Frozen Soul Palm - Right</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Mooncatcher Hands</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Sunchaser Legs</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Illusion Body</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Granular Arms</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Perception Body</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Bony Shell</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Transcendent Heart</Building.Produces.Produce.Display>
+      <Building.Produces.Produce.Display>Rejected Body</Building.Produces.Produce.Display>
+    </Text>
+
   </List>
 </Texts>
