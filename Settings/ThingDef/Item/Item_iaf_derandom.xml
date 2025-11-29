@@ -1,0 +1,892 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_Mod_God_Guard_Base" Parent="MaterialBase">
+		<ThingName>XX神光</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_xingsui01</TexPath>
+		<Desc>蕴含XX护法之力的神道宝光，若以神道秘法感应，或可引XX之力为护法。</Desc>
+		<Beauty>1</Beauty>
+		<Rate>9</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Treasure">
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>卷</FabaoSuffix>
+		</Item>
+		<StoryBnts>
+			<li Name="查阅" Desc="查阅此物" Appoint="2" Story="Story_Item_Mod_God_Guard" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base1" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>雷公神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_lei</TexPath>
+	    <Desc>蕴含雷公护法之力的神道宝光，若以神道秘法感应，或可引雷公之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="36"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base2" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>电母神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_dian</TexPath>
+	    <Desc>蕴含电母护法之力的神道宝光，若以神道秘法感应，或可引电母之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="36"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base3" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>云霆神将神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_yun</TexPath>
+	    <Desc>蕴含云霆神将护法之力的神道宝光，若以神道秘法感应，或可引云霆神将之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base4" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>御雷神将神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_yu01</TexPath>
+	    <Desc>蕴含御雷神将护法之力的神道宝光，若以神道秘法感应，或可引御雷神将之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base5" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>列缺使神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_lie</TexPath>
+	    <Desc>蕴含列缺使护法之力的神道宝光，若以神道秘法感应，或可引列缺使之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base6" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>霹雳使神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_pi</TexPath>
+	    <Desc>蕴含霹雳使护法之力的神道宝光，若以神道秘法感应，或可引霹雳使之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base7" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>神宵使神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_shen</TexPath>
+	    <Desc>蕴含神宵使护法之力的神道宝光，若以神道秘法感应，或可引神宵使之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base8" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>天都使神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_tian</TexPath>
+	    <Desc>蕴含天都使护法之力的神道宝光，若以神道秘法感应，或可引天都使之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base9" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>玉枢使神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_yu</TexPath>
+	    <Desc>蕴含玉枢使护法之力的神道宝光，若以神道秘法感应，或可引玉枢使之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base10" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>天人神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_tian</TexPath>
+	    <Desc>蕴含天人护法之力的神道宝光，若以神道秘法感应，或可引天人之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="36"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base11" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>龙王神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_long</TexPath>
+	    <Desc>蕴含龙王护法之力的神道宝光，若以神道秘法感应，或可引龙王之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base12" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>夜叉神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_ye</TexPath>
+	    <Desc>蕴含夜叉护法之力的神道宝光，若以神道秘法感应，或可引夜叉之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base13" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>乾达婆神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_qian</TexPath>
+	    <Desc>蕴含乾达婆护法之力的神道宝光，若以神道秘法感应，或可引乾达婆之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base14" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>阿修罗神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_a</TexPath>
+	    <Desc>蕴含阿修罗护法之力的神道宝光，若以神道秘法感应，或可引阿修罗之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base15" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>迦楼罗神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jia</TexPath>
+	    <Desc>蕴含迦楼罗护法之力的神道宝光，若以神道秘法感应，或可引迦楼罗之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base16" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>紧那罗神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jin</TexPath>
+	    <Desc>蕴含紧那罗护法之力的神道宝光，若以神道秘法感应，或可引紧那罗之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base17" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>摩乎罗伽神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_mo</TexPath>
+	    <Desc>蕴含摩乎罗伽护法之力的神道宝光，若以神道秘法感应，或可引摩乎罗伽之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base18" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>通幽判官神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_tong</TexPath>
+	    <Desc>蕴含通幽判官护法之力的神道宝光，若以神道秘法感应，或可引通幽判官之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="36"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base19" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>黑衣无常神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_hei</TexPath>
+	    <Desc>蕴含黑衣无常护法之力的神道宝光，若以神道秘法感应，或可引黑衣无常之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base20" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>白袍无常神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_bai</TexPath>
+	    <Desc>蕴含白袍无常护法之力的神道宝光，若以神道秘法感应，或可引白袍无常之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base21" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>牛头幽使神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_niu</TexPath>
+	    <Desc>蕴含牛头幽使护法之力的神道宝光，若以神道秘法感应，或可引牛头幽使之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base22" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>马面鬼将神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_ma</TexPath>
+	    <Desc>蕴含马面鬼将护法之力的神道宝光，若以神道秘法感应，或可引马面鬼将之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base23" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>引渡人神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_yien</TexPath>
+	    <Desc>蕴含引渡人护法之力的神道宝光，若以神道秘法感应，或可引引渡人之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base24" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>阴山卫神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_yin</TexPath>
+	    <Desc>蕴含阴山卫护法之力的神道宝光，若以神道秘法感应，或可引阴山卫之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base25" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>贪狼星神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_tan</TexPath>
+	    <Desc>蕴含贪狼星护法之力的神道宝光，若以神道秘法感应，或可引贪狼星之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="36"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base26" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>七杀星神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_qi</TexPath>
+	    <Desc>蕴含七杀星护法之力的神道宝光，若以神道秘法感应，或可引七杀星之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="36"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base27" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>破军星神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_po</TexPath>
+	    <Desc>蕴含破军星护法之力的神道宝光，若以神道秘法感应，或可引破军星之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="36"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base28" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>赤灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_chi</TexPath>
+	    <Desc>蕴含赤灵护法之力的神道宝光，若以神道秘法感应，或可引赤灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base29" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>白灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_bai</TexPath>
+	    <Desc>蕴含白灵护法之力的神道宝光，若以神道秘法感应，或可引白灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base30" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>黄灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_huang</TexPath>
+	    <Desc>蕴含黄灵护法之力的神道宝光，若以神道秘法感应，或可引黄灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base31" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>黑灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_hei</TexPath>
+	    <Desc>蕴含黑灵护法之力的神道宝光，若以神道秘法感应，或可引黑灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base32" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>青灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_qing</TexPath>
+	    <Desc>蕴含青灵护法之力的神道宝光，若以神道秘法感应，或可引青灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base33" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>海灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_hai</TexPath>
+	    <Desc>蕴含海灵护法之力的神道宝光，若以神道秘法感应，或可引海灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base34" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>山灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_shan</TexPath>
+	    <Desc>蕴含山灵护法之力的神道宝光，若以神道秘法感应，或可引山灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base35" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>花灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_hua</TexPath>
+	    <Desc>蕴含花灵护法之力的神道宝光，若以神道秘法感应，或可引花灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base36" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>巨灵神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_ju</TexPath>
+	    <Desc>蕴含巨灵护法之力的神道宝光，若以神道秘法感应，或可引巨灵之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="30"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base37" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>金精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含金精护法之力的神道宝光，若以神道秘法感应，或可引金精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base38" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>木精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含木精护法之力的神道宝光，若以神道秘法感应，或可引木精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base39" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>水精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含水精护法之力的神道宝光，若以神道秘法感应，或可引水精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base40" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>火精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含火精护法之力的神道宝光，若以神道秘法感应，或可引火精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base41" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>土精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含土精护法之力的神道宝光，若以神道秘法感应，或可引土精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base42" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>土煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含土煞护法之力的神道宝光，若以神道秘法感应，或可引土煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base43" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>木煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含木煞护法之力的神道宝光，若以神道秘法感应，或可引木煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base44" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>金煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含金煞护法之力的神道宝光，若以神道秘法感应，或可引金煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base45" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>湖精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含湖精护法之力的神道宝光，若以神道秘法感应，或可引湖精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base46" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>晶精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含晶精护法之力的神道宝光，若以神道秘法感应，或可引晶精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base47" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>岩精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含岩精护法之力的神道宝光，若以神道秘法感应，或可引岩精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base48" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>火煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含火煞护法之力的神道宝光，若以神道秘法感应，或可引火煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base49" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>水煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含水煞护法之力的神道宝光，若以神道秘法感应，或可引水煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base50" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>风精神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_jing</TexPath>
+	    <Desc>蕴含风精护法之力的神道宝光，若以神道秘法感应，或可引风精之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base51" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>风煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含风煞护法之力的神道宝光，若以神道秘法感应，或可引风煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base52" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>岩煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含岩煞护法之力的神道宝光，若以神道秘法感应，或可引岩煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base53" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>韧煞神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_sha</TexPath>
+	    <Desc>蕴含韧煞护法之力的神道宝光，若以神道秘法感应，或可引韧煞之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base54" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>木罡神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_gang</TexPath>
+	    <Desc>蕴含木罡护法之力的神道宝光，若以神道秘法感应，或可引木罡之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base55" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>水罡神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_gang</TexPath>
+	    <Desc>蕴含水罡护法之力的神道宝光，若以神道秘法感应，或可引水罡之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base56" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>金罡神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_gang</TexPath>
+	    <Desc>蕴含金罡护法之力的神道宝光，若以神道秘法感应，或可引金罡之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base57" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>火罡神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_gang</TexPath>
+	    <Desc>蕴含火罡护法之力的神道宝光，若以神道秘法感应，或可引火罡之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+	  <ThingDef Type="Item" Name="Item_Mod_God_Guard_Base58" Parent="Item_Mod_God_Guard_Base">
+	    <ThingName>土罡神光</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res/Sprs/ui/icon_shenguo_gang</TexPath>
+	    <Desc>蕴含土罡护法之力的神道宝光，若以神道秘法感应，或可引土罡之力为护法。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_God_ZhiNianJieJing" count="27"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  </ThingDef>
+</List></ThingDefs>

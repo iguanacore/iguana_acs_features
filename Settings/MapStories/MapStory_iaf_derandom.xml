@@ -1,0 +1,141 @@
+<Stories><List>
+	<Story Name="Story_Item_Mod_God_Guard" Parent="BaseFillingStory">
+		<DisplayName>炼化</DisplayName>
+		<Desc>[NAME]尝试炼化此物。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>阅读</Display>
+				<OKResult>
+				<![CDATA[
+					if me:IsGodPractice() == true then
+						if me:GetGLevel() > 6 then
+							if story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base1" then
+								me:AddMsg(XT("[NAME]成功引动了雷公护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_1");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base2" then
+								me:AddMsg(XT("[NAME]成功引动了电母护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_2");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base3" then
+								me:AddMsg(XT("[NAME]成功引动了云霆神将护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_3");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base4" then
+								me:AddMsg(XT("[NAME]成功引动了御雷神将护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_4");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base5" then
+								me:AddMsg(XT("[NAME]成功引动了列缺使护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_5");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base6" then
+								me:AddMsg(XT("[NAME]成功引动了霹雳使护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_6");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base7" then
+								me:AddMsg(XT("[NAME]成功引动了神宵使护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_7");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base8" then
+								me:AddMsg(XT("[NAME]成功引动了天都使护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_8");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base9" then
+								me:AddMsg(XT("[NAME]成功引动了玉枢使护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_LeiBu_9");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base10" then
+								me:AddMsg(XT("[NAME]成功引动了天人护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_1");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base11" then
+								me:AddMsg(XT("[NAME]成功引动了龙王护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_2");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base12" then
+								me:AddMsg(XT("[NAME]成功引动了夜叉护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_3");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base13" then
+								me:AddMsg(XT("[NAME]成功引动了乾达婆护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_4");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base14" then
+								me:AddMsg(XT("[NAME]成功引动了阿修罗护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_5");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base15" then
+								me:AddMsg(XT("[NAME]成功引动了迦楼罗护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_6");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base16" then
+								me:AddMsg(XT("[NAME]成功引动了紧那罗护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_7");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base17" then
+								me:AddMsg(XT("[NAME]成功引动了摩乎罗伽护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_BaBuZhong_8");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base18" then
+								me:AddMsg(XT("[NAME]成功引动了通幽判官护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_YouMing_1");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base19" then
+								me:AddMsg(XT("[NAME]成功引动了黑衣无常护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_YouMing_2");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base20" then
+								me:AddMsg(XT("[NAME]成功引动了白袍无常护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_YouMing_3");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base21" then
+								me:AddMsg(XT("[NAME]成功引动了牛头幽使护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_YouMing_4");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base22" then
+								me:AddMsg(XT("[NAME]成功引动了马面鬼将护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_YouMing_5");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base23" then
+								me:AddMsg(XT("[NAME]成功引动了引渡人护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_YouMing_6");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base24" then
+								me:AddMsg(XT("[NAME]成功引动了阴山卫护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_YouMing_7");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base25" then
+								me:AddMsg(XT("[NAME]成功引动了贪狼星护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_1");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base26" then
+								me:AddMsg(XT("[NAME]成功引动了七杀星护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_2");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base27" then
+								me:AddMsg(XT("[NAME]成功引动了破军星护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_3");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base28" then
+								me:AddMsg(XT("[NAME]成功引动了赤灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_4");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base29" then
+								me:AddMsg(XT("[NAME]成功引动了白灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_5");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base30" then
+								me:AddMsg(XT("[NAME]成功引动了黄灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_6");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base31" then
+								me:AddMsg(XT("[NAME]成功引动了黑灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_7");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base32" then
+								me:AddMsg(XT("[NAME]成功引动了青灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_8");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base33" then
+								me:AddMsg(XT("[NAME]成功引动了海灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_9");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base34" then
+								me:AddMsg(XT("[NAME]成功引动了山灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_10");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base35" then
+								me:AddMsg(XT("[NAME]成功引动了花灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_11");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base36" then
+								me:AddMsg(XT("[NAME]成功引动了巨灵护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Other_12");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base37" then
+								me:AddMsg(XT("[NAME]成功引动了金精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_1");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base38" then
+								me:AddMsg(XT("[NAME]成功引动了木精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_2");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base39" then
+								me:AddMsg(XT("[NAME]成功引动了水精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_3");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base40" then
+								me:AddMsg(XT("[NAME]成功引动了火精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_4");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base41" then
+								me:AddMsg(XT("[NAME]成功引动了土精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_5");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base42" then
+								me:AddMsg(XT("[NAME]成功引动了土煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_6");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base43" then
+								me:AddMsg(XT("[NAME]成功引动了木煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_7");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base44" then
+								me:AddMsg(XT("[NAME]成功引动了金煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_8");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base45" then
+								me:AddMsg(XT("[NAME]成功引动了湖精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_9");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base46" then
+								me:AddMsg(XT("[NAME]成功引动了晶精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_10");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base47" then
+								me:AddMsg(XT("[NAME]成功引动了岩精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_11");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base48" then
+								me:AddMsg(XT("[NAME]成功引动了火煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_12");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base49" then
+								me:AddMsg(XT("[NAME]成功引动了水煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_13");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base50" then
+								me:AddMsg(XT("[NAME]成功引动了风精护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_14");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base51" then
+								me:AddMsg(XT("[NAME]成功引动了风煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_15");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base52" then
+								me:AddMsg(XT("[NAME]成功引动了岩煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_16");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base53" then
+								me:AddMsg(XT("[NAME]成功引动了韧煞护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_17");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base54" then
+								me:AddMsg(XT("[NAME]成功引动了木罡护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_18");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base55" then
+								me:AddMsg(XT("[NAME]成功引动了水罡护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_19");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base56" then
+								me:AddMsg(XT("[NAME]成功引动了金罡护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_20");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base57" then
+								me:AddMsg(XT("[NAME]成功引动了火罡护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_21");story:RemoveBindItem();
+							elseif story:GetBindThing().def.Name == "Item_Mod_God_Guard_Base58" then
+								me:AddMsg(XT("[NAME]成功引动了土罡护法之力，化为神国护法。"));me:UnlockGodGuard("Guard_Base_22");story:RemoveBindItem();
+							end
+						else
+							me:AddMsg(XT("以[NAME]的神道修为完全无法引动此物之中的气息。"));
+						end
+					else
+						me:AddMsg(XT("[NAME]无法炼化此物。"))
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

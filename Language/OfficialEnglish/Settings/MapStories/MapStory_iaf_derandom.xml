@@ -1,0 +1,9 @@
+<Texts Type="Story">
+  <List>
+    <Text Name="Story_Item_Mod_God_Guard">
+      <DisplayName>Comprehend</DisplayName>
+      <Desc>[NAME] tried to comprehend this thing.</Desc>
+      <Selections.0.Display>Comprehend</Selections.0.Display>
+    </Text>
+  </List>
+</Texts>
