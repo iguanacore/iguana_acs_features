@@ -1,0 +1,243 @@
+<Texts Type="Thing">
+  <List>
+    <Text Name="Item_Mod_God_Guard_Base" sParam="Item">
+      <ThingName>XX Guard</ThingName>
+      <Desc>The light of the gods containing the power of XX Guard, can be used by Divine cultivators.</Desc>
+      <Item.FabaoSuffix>Volume</Item.FabaoSuffix>
+      <StoryBnts.0.Name>Inspiration</StoryBnts.0.Name>
+      <StoryBnts.0.Desc>Study Guard</StoryBnts.0.Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base1" sParam="Item">
+      <ThingName>Father of Thunder</ThingName>
+      <Desc>The light of the gods containing the power of Father of Thunder Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base2" sParam="Item">
+      <ThingName>Mother of Lightning</ThingName>
+      <Desc>The light of the gods containing the power of Mother of Lightning Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base3" sParam="Item">
+      <ThingName>Thunder General</ThingName>
+      <Desc>The light of the gods containing the power of Thunder General Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base4" sParam="Item">
+      <ThingName>Cloud General</ThingName>
+      <Desc>The light of the gods containing the power of Cloud General Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base5" sParam="Item">
+      <ThingName>Skyrift Messenger</ThingName>
+      <Desc>The light of the gods containing the power of Skyrift Messenger Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base6" sParam="Item">
+      <ThingName>Bolt Messenger</ThingName>
+      <Desc>The light of the gods containing the power of Bolt Messenger Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base7" sParam="Item">
+      <ThingName>Evernight Messenger</ThingName>
+      <Desc>The light of the gods containing the power of Evernight Messenger Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base8" sParam="Item">
+      <ThingName>Celeste Messenger</ThingName>
+      <Desc>The light of the gods containing the power of Celeste Messenger Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base9" sParam="Item">
+      <ThingName>Cardinal Messenger</ThingName>
+      <Desc>The light of the gods containing the power of Cardinal Messenger Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base10" sParam="Item">
+      <ThingName>Deva</ThingName>
+      <Desc>The light of the gods containing the power of Deva Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base11" sParam="Item">
+      <ThingName>Naga</ThingName>
+      <Desc>The light of the gods containing the power of Naga Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base12" sParam="Item">
+      <ThingName>Yaksha</ThingName>
+      <Desc>The light of the gods containing the power of Yaksha Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base13" sParam="Item">
+      <ThingName>Gandharva</ThingName>
+      <Desc>The light of the gods containing the power of Gandharva Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base14" sParam="Item">
+      <ThingName>Asura</ThingName>
+      <Desc>The light of the gods containing the power of Asura Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base15" sParam="Item">
+      <ThingName>Garuda</ThingName>
+      <Desc>The light of the gods containing the power of Garuda Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base16" sParam="Item">
+      <ThingName>Kinnara</ThingName>
+      <Desc>The light of the gods containing the power of Kinnara Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base17" sParam="Item">
+      <ThingName>Mahoraga</ThingName>
+      <Desc>The light of the gods containing the power of Mahoraga Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base18" sParam="Item">
+      <ThingName>Nether Judge</ThingName>
+      <Desc>The light of the gods containing the power of Nether Judge Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base19" sParam="Item">
+      <ThingName>Black Judge</ThingName>
+      <Desc>The light of the gods containing the power of Black Judge Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base20" sParam="Item">
+      <ThingName>White Judge</ThingName>
+      <Desc>The light of the gods containing the power of White Judge Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base21" sParam="Item">
+      <ThingName>Ox-Head Messenger</ThingName>
+      <Desc>The light of the gods containing the power of Ox-Head Messenger Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base22" sParam="Item">
+      <ThingName>Horse-Face Sergeant</ThingName>
+      <Desc>The light of the gods containing the power of Horse-Face Sergeant Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base23" sParam="Item">
+      <ThingName>Ferryman</ThingName>
+      <Desc>The light of the gods containing the power of Ferryman Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base24" sParam="Item">
+      <ThingName>Darkmountain Guardian</ThingName>
+      <Desc>The light of the gods containing the power of Darkmountain Guardian Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base25" sParam="Item">
+      <ThingName>Dubhe</ThingName>
+      <Desc>The light of the gods containing the power of Dubhe Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base26" sParam="Item">
+      <ThingName>Polis</ThingName>
+      <Desc>The light of the gods containing the power of Polis Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base27" sParam="Item">
+      <ThingName>Alkaid</ThingName>
+      <Desc>The light of the gods containing the power of Alkaid Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base28" sParam="Item">
+      <ThingName>Crimson Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Crimson Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base29" sParam="Item">
+      <ThingName>White Spirit</ThingName>
+      <Desc>The light of the gods containing the power of White Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base30" sParam="Item">
+      <ThingName>Yellow Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Yellow Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base31" sParam="Item">
+      <ThingName>Black Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Black Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base32" sParam="Item">
+      <ThingName>Azure Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Azure Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base33" sParam="Item">
+      <ThingName>Sea Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Sea Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base34" sParam="Item">
+      <ThingName>Mountain Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Mountain Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base35" sParam="Item">
+      <ThingName>Flower Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Flower Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base36" sParam="Item">
+      <ThingName>Giant Spirit</ThingName>
+      <Desc>The light of the gods containing the power of Giant Spirit Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base37" sParam="Item">
+      <ThingName>Metal Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Metal Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base38" sParam="Item">
+      <ThingName>Wood Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Wood Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base39" sParam="Item">
+      <ThingName>Water Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Water Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base40" sParam="Item">
+      <ThingName>Fire Essence</ThingName>
+      <Desc>The light of the gods containing the power of Fire Essence Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base41" sParam="Item">
+      <ThingName>Earth Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Earth Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base42" sParam="Item">
+      <ThingName>Earth Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Earth Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base43" sParam="Item">
+      <ThingName>Wood Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Wood Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base44" sParam="Item">
+      <ThingName>Metal Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Metal Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base45" sParam="Item">
+      <ThingName>Lake Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Lake Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base46" sParam="Item">
+      <ThingName>Crystal Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Crystal Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base47" sParam="Item">
+      <ThingName>Rock Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Rock Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base48" sParam="Item">
+      <ThingName>Fire Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Fire Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base49" sParam="Item">
+      <ThingName>Water Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Water Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base50" sParam="Item">
+      <ThingName>Wind Sprite</ThingName>
+      <Desc>The light of the gods containing the power of Wind Sprite Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base51" sParam="Item">
+      <ThingName>Wind Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Wind Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base52" sParam="Item">
+      <ThingName>Rock Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Rock Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base53" sParam="Item">
+      <ThingName>Pliable Fiend</ThingName>
+      <Desc>The light of the gods containing the power of Pliable Fiend Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base54" sParam="Item">
+      <ThingName>Wood Guardian</ThingName>
+      <Desc>The light of the gods containing the power of Wood Guardian Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base55" sParam="Item">
+      <ThingName>Water Guardian</ThingName>
+      <Desc>The light of the gods containing the power of Water Guardian Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base56" sParam="Item">
+      <ThingName>Metal Guardian</ThingName>
+      <Desc>The light of the gods containing the power of Metal Guardian Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base57" sParam="Item">
+      <ThingName>Fire Guardian</ThingName>
+      <Desc>The light of the gods containing the power of Fire Guardian Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+    <Text Name="Item_Mod_God_Guard_Base58" sParam="Item">
+      <ThingName>Earth Guardian</ThingName>
+      <Desc>The light of the gods containing the power of Earth Guardian Guard, can be used by Divine cultivators.</Desc>
+    </Text>
+  </List>
+</Texts>

@@ -6,3 +6,63 @@ Key	Value
 [NAME]打开石匣，竟然在其中发现一门神通。	[NAME] opened the stone chest and discovered a method to perform a Miracle inside.
 [NAME]打开石匣，竟然在其中发现一本秘籍。	[NAME] opened the stone chest and discovered a Manual inside.
 [NAME]打开石匣，瞬间一道七彩光华直冲云霄，这平凡无奇的石匣中竟然藏有一本上古失传的功法传承。	[NAME] opened the stone chest and a burst of light shot out into the sky. There was a manual detailing an ancient lost Law inside.
+以[NAME]的神道修为完全无法引动此物之中的气息。	With [NAME]'s level of cultivation, it's impossible to use this.
+[NAME]无法炼化此物。	[NAME] couldn't use this.
+[NAME]成功引动了雷公护法之力，化为神国护法。	[NAME] successfully comprehended the power of Father of Thunder and turned them into a Divine Realm Guard.
+[NAME]成功引动了电母护法之力，化为神国护法。	[NAME] successfully comprehended the power of Mother of Lightning and turned them into a Divine Realm Guard.
+[NAME]成功引动了云霆神将护法之力，化为神国护法。	[NAME] successfully comprehended the power of Thunder General and turned them into a Divine Realm Guard.
+[NAME]成功引动了御雷神将护法之力，化为神国护法。	[NAME] successfully comprehended the power of Cloud General and turned them into a Divine Realm Guard.
+[NAME]成功引动了列缺使护法之力，化为神国护法。	[NAME] successfully comprehended the power of Skyrift Messenger and turned them into a Divine Realm Guard.
+[NAME]成功引动了霹雳使护法之力，化为神国护法。	[NAME] successfully comprehended the power of Bolt Messenger and turned them into a Divine Realm Guard.
+[NAME]成功引动了神宵使护法之力，化为神国护法。	[NAME] successfully comprehended the power of Evernight Messenger and turned them into a Divine Realm Guard.
+[NAME]成功引动了天都使护法之力，化为神国护法。	[NAME] successfully comprehended the power of Celeste Messenger and turned them into a Divine Realm Guard.
+[NAME]成功引动了玉枢使护法之力，化为神国护法。	[NAME] successfully comprehended the power of Cardinal Messenger and turned them into a Divine Realm Guard.
+[NAME]成功引动了天人护法之力，化为神国护法。	[NAME] successfully comprehended the power of Deva and turned them into a Divine Realm Guard.
+[NAME]成功引动了龙王护法之力，化为神国护法。	[NAME] successfully comprehended the power of Naga and turned them into a Divine Realm Guard.
+[NAME]成功引动了夜叉护法之力，化为神国护法。	[NAME] successfully comprehended the power of Yaksha and turned them into a Divine Realm Guard.
+[NAME]成功引动了乾达婆护法之力，化为神国护法。	[NAME] successfully comprehended the power of Gandharva and turned them into a Divine Realm Guard.
+[NAME]成功引动了阿修罗护法之力，化为神国护法。	[NAME] successfully comprehended the power of Asura and turned them into a Divine Realm Guard.
+[NAME]成功引动了迦楼罗护法之力，化为神国护法。	[NAME] successfully comprehended the power of Garuda and turned them into a Divine Realm Guard.
+[NAME]成功引动了紧那罗护法之力，化为神国护法。	[NAME] successfully comprehended the power of Kinnara and turned them into a Divine Realm Guard.
+[NAME]成功引动了摩乎罗伽护法之力，化为神国护法。	[NAME] successfully comprehended the power of Mahoraga and turned them into a Divine Realm Guard.
+[NAME]成功引动了通幽判官护法之力，化为神国护法。	[NAME] successfully comprehended the power of Nether Judge and turned them into a Divine Realm Guard.
+[NAME]成功引动了黑衣无常护法之力，化为神国护法。	[NAME] successfully comprehended the power of Black Judge and turned them into a Divine Realm Guard.
+[NAME]成功引动了白袍无常护法之力，化为神国护法。	[NAME] successfully comprehended the power of White Judge and turned them into a Divine Realm Guard.
+[NAME]成功引动了牛头幽使护法之力，化为神国护法。	[NAME] successfully comprehended the power of Ox-Head Messenger and turned them into a Divine Realm Guard.
+[NAME]成功引动了马面鬼将护法之力，化为神国护法。	[NAME] successfully comprehended the power of Horse-Face Sergeant and turned them into a Divine Realm Guard.
+[NAME]成功引动了引渡人护法之力，化为神国护法。	[NAME] successfully comprehended the power of Ferryman and turned them into a Divine Realm Guard.
+[NAME]成功引动了阴山卫护法之力，化为神国护法。	[NAME] successfully comprehended the power of Darkmountain Guardian and turned them into a Divine Realm Guard.
+[NAME]成功引动了贪狼星护法之力，化为神国护法。	[NAME] successfully comprehended the power of Dubhe and turned them into a Divine Realm Guard.
+[NAME]成功引动了七杀星护法之力，化为神国护法。	[NAME] successfully comprehended the power of Polis and turned them into a Divine Realm Guard.
+[NAME]成功引动了破军星护法之力，化为神国护法。	[NAME] successfully comprehended the power of Alkaid and turned them into a Divine Realm Guard.
+[NAME]成功引动了赤灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Crimson Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了白灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of White Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了黄灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Yellow Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了黑灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Black Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了青灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Azure Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了海灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Sea Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了山灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Mountain Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了花灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Flower Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了巨灵护法之力，化为神国护法。	[NAME] successfully comprehended the power of Giant Spirit and turned them into a Divine Realm Guard.
+[NAME]成功引动了金精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Metal Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了木精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Wood Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了水精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Water Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了火精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Fire Essence and turned them into a Divine Realm Guard.
+[NAME]成功引动了土精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Earth Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了土煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Earth Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了木煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Wood Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了金煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Metal Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了湖精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Lake Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了晶精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Crystal Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了岩精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Rock Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了火煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Fire Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了水煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Water Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了风精护法之力，化为神国护法。	[NAME] successfully comprehended the power of Wind Sprite and turned them into a Divine Realm Guard.
+[NAME]成功引动了风煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Wind Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了岩煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Rock Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了韧煞护法之力，化为神国护法。	[NAME] successfully comprehended the power of Pliable Fiend and turned them into a Divine Realm Guard.
+[NAME]成功引动了木罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Wood Guardian and turned them into a Divine Realm Guard.
+[NAME]成功引动了水罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Water Guardian and turned them into a Divine Realm Guard.
+[NAME]成功引动了金罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Metal Guardian and turned them into a Divine Realm Guard.
+[NAME]成功引动了火罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Fire Guardian and turned them into a Divine Realm Guard.
+[NAME]成功引动了土罡护法之力，化为神国护法。	[NAME] successfully comprehended the power of Earth Guardian and turned them into a Divine Realm Guard.

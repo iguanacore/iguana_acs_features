@@ -1,0 +1,66 @@
+<Texts Type="Thing">
+  <List>
+    <Text Name="Building_WileShrine" sParam="Building">
+      <ThingName>Wild God Temple</ThingName>
+      <Desc>An ordinary shrine with no idols, offering sacrifices with different items can make things happen.</Desc>
+        <Building.Produces.Produce.Display>Father of Thunder</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Mother of Lightning</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Thunder General</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Cloud General</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Skyrift Messenger</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Bolt Messenger</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Evernight Messenger</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Celeste Messenger</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Cardinal Messenger</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Deva</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Naga</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Yaksha</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Gandharva</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Asura</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Garuda</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Kinnara</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Mahoraga</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Nether Judge</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Black Judge</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>White Judge</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Ox-Head Messenger</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Horse-Face Sergeant</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Ferryman</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Darkmountain Guardian</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Dubhe</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Polis</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Alkaid</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Crimson Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>White Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Yellow Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Black Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Azure Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Sea Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Mountain Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Flower Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Giant Spirit</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Metal Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Wood Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Water Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Fire Essence</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Earth Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Earth Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Wood Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Metal Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Lake Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Crystal Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Rock Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Fire Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Water Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Wind Sprite</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Wind Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Rock Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Pliable Fiend</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Wood Guardian</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Water Guardian</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Metal Guardian</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Fire Guardian</Building.Produces.Produce.Display>
+        <Building.Produces.Produce.Display>Earth Guardian</Building.Produces.Produce.Display>
+    </Text>
+  </List>
+</Texts>
