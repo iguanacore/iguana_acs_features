@@ -11,6 +11,7 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 * Additional Growable Plants - Adds existing plants (but currently not added) to Field & Herb Garden.
 * Various Debug Items - Adds a bunch of debugging related items, not accessible during regular gameplay. Requires a method to spawn them in, like ModModifier. Also includes Ancient Casket Descummer.
 * Shendao Guard Derandomizer - Adds a building (Wild God Temple, under Sect) where you can convert Obsession Gems into Shendao Guard granting items. Alternative CN [available on the Workshop.](https://steamcommunity.com/sharedfiles/filedetails/?id=2019311555)
+* Physical Secret Body Derandomizer - Adds a building (Barbarian Statue, under Sect), where you can craft Secred Body recipes for Physical Cultivators. Alternative CN [availeble on the Workshop.](https://steamcommunity.com/sharedfiles/filedetails/?id=2306399532)
 
 ## Install instructions
 
@@ -72,12 +73,13 @@ Modifications applied by `iguana_acs_features.dll`.
 
 * `iaf_Item_Debugging_StoryCasket`, `iaf_Item_Debugging_WuXingLingWu` - Various Debug Items, currently commented out.
 * `Building_WileShrine` - Wild God Temple, for Shendao Guard Derandomizer.
-* `Settings\ThingDef\Item\Item_iaf_derandom.xml` - Shendao Guard Derandomizer items.
+* `Building_Body_Learn` - Barbarian Statue, for Physical SB Derandomizer.
+* `Settings\ThingDef\Item\Item_iaf_derandom.xml` - Shendao Guard Derandomizer, Physical SB Derandomizer items.
 
 ### MapStories
 
 * `iaf_Story_Item_Debugging_StoryCasket`, `iaf_Story_Item_WuXingLingWu` - Various Debug Items.
-* `Settings\MapStories\MapStory_iaf_derandom.xml` - Shendao Guard Derandomizer stories.
+* `Settings\MapStories\MapStory_iaf_derandom.xml` - Shendao Guard Derandomizer, Physical SB Derandomizer stories.
 
 ### Manuals (Esoterica)
 

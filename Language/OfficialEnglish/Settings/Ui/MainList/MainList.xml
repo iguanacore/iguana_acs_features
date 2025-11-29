@@ -3,5 +3,8 @@
     <Text Name="Building_WileShrine">
       <Type>Sect</Type>
     </Text>
+    <Text Name="Building_Body_Learn">
+			<Type>Sect</Type>
+	</Text>
   </List>
 </Texts>

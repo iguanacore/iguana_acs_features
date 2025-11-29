@@ -138,4 +138,136 @@
 			</li>
 		</Selections>
 	</Story>
+
+<Story Name="Story_SuperPartItem_jcy">
+		<DisplayName>参悟奥义</DisplayName>
+		<Desc>尝试参悟这块肢体中蕴含的锻体之法的奥义。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>参悟</Display>
+				<OKResult>
+				<![CDATA[	
+				if me.npcObj.GongKind ~= CS.XiaWorld.g_emGongKind.Body then
+					me:AddMsg(XT("[NAME]无法参悟此中奥义。"))
+					return;
+				else
+					if story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_1_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_1_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_2" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_2");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_3" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_3");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_4" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_4");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_5" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_5");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_6" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_6");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_7" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_7");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_8" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_8");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_9" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_9");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_10" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_10");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_11" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_11");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_1_11_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_1_11_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_1_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_1_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_2" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_2");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_2_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_2_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_3" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_3");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_4" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_4");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_4_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_4_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_5" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_5");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_6" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_6");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_7" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_7");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_8" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_8");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_9" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_9");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_10" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_10");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_2_11" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_2_11");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_2" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_2");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_3" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_3");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_4" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_4");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_5" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_5");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_6" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_6");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_7" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_7");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_8" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_8");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_9" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_9");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_10" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_10");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_11" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_11");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_3_12" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_3_12");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_1_1" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_1_1");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_2" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_2");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_3" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_3");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_4" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_4");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_5" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_5");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_6" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_6");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_7" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_7");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_8" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_8");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_9" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_9");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_10" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_10");story:RemoveBindItem();
+					elseif story:GetBindThing().def.Name == "Item_Mod_SuperPart_Gong_5_11" then
+						me:AddMsg(XT("[NAME]成功参悟了体修奥义"));me:UnLockSuperPart("SuperPart_Gong_5_11");story:RemoveBindItem();
+					else 
+						me:AddMsg(XT("[NAME]无法参悟此中奥义。"))
+					end
+				end
+				]]>	
+				</OKResult>
+			</li>
+			<li>
+				<Display>放弃</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]还是决定放弃参悟奥义。"))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
 </List></Stories>

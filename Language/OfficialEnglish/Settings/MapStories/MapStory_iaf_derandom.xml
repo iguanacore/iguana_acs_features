@@ -5,5 +5,13 @@
       <Desc>[NAME] tried to comprehend this thing.</Desc>
       <Selections.0.Display>Comprehend</Selections.0.Display>
     </Text>
+
+    <Text Name="Story_SuperPartItem_jcy">
+      <DisplayName>Comprehension</DisplayName>
+      <Desc>Try to comprehend the profound meaning of the forging method contained in this limb.</Desc>
+      <Selections.0.Display>Comprehend</Selections.0.Display>
+      <Selections.1.Display>Give up</Selections.1.Display>
+    </Text>
+
   </List>
 </Texts>

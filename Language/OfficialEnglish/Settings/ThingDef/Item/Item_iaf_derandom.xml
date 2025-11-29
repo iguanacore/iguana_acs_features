@@ -239,5 +239,218 @@
       <ThingName>Earth Guardian</ThingName>
       <Desc>The light of the gods containing the power of Earth Guardian Guard, can be used by Divine cultivators.</Desc>
     </Text>
+
+<Text Name="Item_Mod_Body_Base" sParam="Item">
+      <ThingName>XX Secret Body mystery</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：XX。</Desc>
+      <Item.FabaoSuffix>Volume</Item.FabaoSuffix>
+      <StoryBnts.0.Name>Inspiration</StoryBnts.0.Name>
+      <StoryBnts.0.Desc>Learn Profundity</StoryBnts.0.Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_1" sParam="Item">
+      <ThingName>Mixed Element Arm - Left</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Mixed Element Arm - Left</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_1_1" sParam="Item">
+      <ThingName>Mixed Element Arm - Right</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Mixed Element Arm - Right</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_2" sParam="Item">
+      <ThingName>Directional Concord Measure</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Directional Concord Measure</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_3" sParam="Item">
+      <ThingName>The Five Elements Fists</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：The Five Elements Fists</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_4" sParam="Item">
+      <ThingName>Eagle Bear Combine Form</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Eagle Bear Combine Form</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_5" sParam="Item">
+      <ThingName>Luster of Yang Heart</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Luster of Yang Heart</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_6" sParam="Item">
+      <ThingName>Glaze of Yin Heart</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Glaze of Yin Heart</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_7" sParam="Item">
+      <ThingName>Heavenly Dragon Spine</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Heavenly Dragon Spine</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_8" sParam="Item">
+      <ThingName>Heaven and Earth Furnace</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Heaven and Earth Furnace</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_9" sParam="Item">
+      <ThingName>Stark Root Legs</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Stark Root Legs</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_10" sParam="Item">
+      <ThingName>Dark Turtle Shell</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Dark Turtle Shell</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_11" sParam="Item">
+      <ThingName>Void Thundercatch Hand - Left</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Void Thundercatch Hand - Left</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_1_11_1" sParam="Item">
+      <ThingName>Void Thundercatch Hand - Right</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Void Thundercatch Hand - Right</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_1" sParam="Item">
+      <ThingName>Wild Shock Leg - Left</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Wild Shock Leg - Left</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_1_1" sParam="Item">
+      <ThingName>Wild Shock Leg - Right</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Wild Shock Leg - Right</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_2" sParam="Item">
+      <ThingName>Realm Cross Hand - Left</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Realm Cross Hand - Left</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_2_1" sParam="Item">
+      <ThingName>Realm Cross Hand - Right</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Realm Cross Hand - Right</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_3" sParam="Item">
+      <ThingName>Heavenly Reins Top</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Heavenly Reins Top</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_4" sParam="Item">
+      <ThingName>Heavenly Shield Leg - Left</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Heavenly Shield Leg - Left</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_4_1" sParam="Item">
+      <ThingName>Heavenly Shield Leg - Right</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Heavenly Shield Leg - Right</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_5" sParam="Item">
+      <ThingName>Qi Devourer Circle</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Qi Devourer Circle</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_6" sParam="Item">
+      <ThingName>Indestructible Oneness Body</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Indestructible Oneness Body</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_7" sParam="Item">
+      <ThingName>Firestruck Blood</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Firestruck Blood</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_8" sParam="Item">
+      <ThingName>Barbarian God Heart</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Barbarian God Heart</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_9" sParam="Item">
+      <ThingName>Barbarian Will</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Barbarian Will</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_10" sParam="Item">
+      <ThingName>Polar Eyes</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Polar Eyes</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_2_11" sParam="Item">
+      <ThingName>Devouring Mouth</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Devouring Mouth</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_1" sParam="Item">
+      <ThingName>Demon Poison Fang</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Demon Poison Fang</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_2" sParam="Item">
+      <ThingName>Shadow Slayer Tail</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Shadow Slayer Tail</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_3" sParam="Item">
+      <ThingName>Void Rupture Claw</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Void Rupture Claw</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_4" sParam="Item">
+      <ThingName>Peak Step</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Peak Step</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_5" sParam="Item">
+      <ThingName>Demonic Radiance Bristles</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Demonic Radiance Bristles</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_6" sParam="Item">
+      <ThingName>Bonerust Wind</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Bonerust Wind</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_7" sParam="Item">
+      <ThingName>Chaotic Shell</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Chaotic Shell</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_8" sParam="Item">
+      <ThingName>Demonshield Scale</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Demonshield Scale</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_9" sParam="Item">
+      <ThingName>Impremanence Feather</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Impremanence Feather</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_10" sParam="Item">
+      <ThingName>Illusion Will</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Illusion Will</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_11" sParam="Item">
+      <ThingName>Bestial Breath</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Bestial Breath</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_3_12" sParam="Item">
+      <ThingName>Astral Tail</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Astral Tail</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_1" sParam="Item">
+      <ThingName>Ethereal Hand - Left</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Ethereal Hand - Left</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_1_1" sParam="Item">
+      <ThingName>Ethereal Hand - Right</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Ethereal Hand - Right</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_2" sParam="Item">
+      <ThingName>Divine Blaze Palm - Left</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Divine Blaze Palm - Left</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_3" sParam="Item">
+      <ThingName>Frozen Soul Palm - Right</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Frozen Soul Palm - Right</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_4" sParam="Item">
+      <ThingName>Mooncatcher Hands</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Mooncatcher Hands</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_5" sParam="Item">
+      <ThingName>Sunchaser Legs</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Sunchaser Legs</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_6" sParam="Item">
+      <ThingName>Illusion Body</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Illusion Body</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_7" sParam="Item">
+      <ThingName>Granular Arms</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Granular Arms</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_8" sParam="Item">
+      <ThingName>Perception Body</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Perception Body</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_9" sParam="Item">
+      <ThingName>Bony Shell</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Bony Shell</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_10" sParam="Item">
+      <ThingName>Transcendent Heart</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Transcendent Heart</Desc>
+    </Text>
+    <Text Name="Item_Mod_SuperPart_Gong_5_11" sParam="Item">
+      <ThingName>Rejected Body</ThingName>
+      <Desc>Physical cultivators can use this to learn the Secret Body：Rejected Body</Desc>
+    </Text>
+
   </List>
 </Texts>

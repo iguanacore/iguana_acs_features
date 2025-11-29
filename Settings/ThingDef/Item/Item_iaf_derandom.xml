@@ -889,4 +889,892 @@
 	      </BeMade>
 	    </Item>
 	  </ThingDef>
+
+	  <ThingDef Type="Item" Name="Item_Mod_Body_Base" Parent="MaterialBase">
+		<ThingName>XX秘体奥义</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+		<Desc>体修可以对其进行感悟学习，以获得新的秘体知识：XX。</Desc>
+		<Beauty>1</Beauty>
+		<Rate>9</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Treasure">
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>卷</FabaoSuffix>
+		</Item>
+		<StoryBnts>
+			<li Name="参悟" Desc="参悟奥义" Appoint="2" Story="Story_SuperPartItem_jcy" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>混元臂·左</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：混元臂·左。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_1_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>混元臂·右</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：混元臂·右。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_2" Parent="Item_Mod_Body_Base">
+	    <ThingName>六合玄通尺</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：六合玄通尺。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_3" Parent="Item_Mod_Body_Base">
+	    <ThingName>五行拳</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：五行拳。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_4" Parent="Item_Mod_Body_Base">
+	    <ThingName>鹰熊合形</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：鹰熊合形。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_5" Parent="Item_Mod_Body_Base">
+	    <ThingName>真阳玲珑心</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：真阳玲珑心。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_6" Parent="Item_Mod_Body_Base">
+	    <ThingName>玄阴琉璃心</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：玄阴琉璃心。</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_7" Parent="Item_Mod_Body_Base">
+	    <ThingName>天龙脊</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：天龙脊</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_8" Parent="Item_Mod_Body_Base">
+	    <ThingName>天地洪炉</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：天地洪炉</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_9" Parent="Item_Mod_Body_Base">
+	    <ThingName>玄木盘根腿</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：玄木盘根腿</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_10" Parent="Item_Mod_Body_Base">
+	    <ThingName>玄龟甲</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：玄龟甲</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_11" Parent="Item_Mod_Body_Base">
+	    <ThingName>六御摘雷手·左</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：六御摘雷手·左</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_1_11_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>六御摘雷手·右</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：六御摘雷手·右</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>撼渊腿·左</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：撼渊腿·左</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_1_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>撼渊腿·右</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：撼渊腿·右</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_2" Parent="Item_Mod_Body_Base">
+	    <ThingName>两界通圣手·左</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：两界通圣手·左</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_2_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>两界通圣手·右</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：两界通圣手·右</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_3" Parent="Item_Mod_Body_Base">
+	    <ThingName>九岳御天顶</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：九岳御天顶</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_4" Parent="Item_Mod_Body_Base">
+	    <ThingName>天盾腿·左</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：天盾腿·左</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_4_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>天盾腿·右</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：天盾腿·右</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_5" Parent="Item_Mod_Body_Base">
+	    <ThingName>吞灵灭劫圈</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：吞灵灭劫圈</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_6" Parent="Item_Mod_Body_Base">
+	    <ThingName>蛮极不灭体</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：蛮极不灭体</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_7" Parent="Item_Mod_Body_Base">
+	    <ThingName>九烈神血</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：九烈神血</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_8" Parent="Item_Mod_Body_Base">
+	    <ThingName>蛮神心</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：蛮神心</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_9" Parent="Item_Mod_Body_Base">
+	    <ThingName>蛮极战意</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：蛮极战意</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_10" Parent="Item_Mod_Body_Base">
+	    <ThingName>八极之眼</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：八极之眼</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_2_11" Parent="Item_Mod_Body_Base">
+	    <ThingName>吞尽之口</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：吞尽之口</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>妖毒牙</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：妖毒牙</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_2" Parent="Item_Mod_Body_Base">
+	    <ThingName>妖影裂风尾</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：妖影裂风尾</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_3" Parent="Item_Mod_Body_Base">
+	    <ThingName>洞虚爪</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：洞虚爪</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_4" Parent="Item_Mod_Body_Base">
+	    <ThingName>凌霄踏</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：凌霄踏</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_5" Parent="Item_Mod_Body_Base">
+	    <ThingName>千芒妖鬃</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：千芒妖鬃</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_6" Parent="Item_Mod_Body_Base">
+	    <ThingName>蚀骨神风</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：蚀骨神风</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_7" Parent="Item_Mod_Body_Base">
+	    <ThingName>浑天妖甲</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：浑天妖甲</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_8" Parent="Item_Mod_Body_Base">
+	    <ThingName>妖御玄鳞</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：妖御玄鳞</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_9" Parent="Item_Mod_Body_Base">
+	    <ThingName>万化羽衣</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：万化羽衣</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_10" Parent="Item_Mod_Body_Base">
+	    <ThingName>太虚妖识</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：太虚妖识</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_11" Parent="Item_Mod_Body_Base">
+	    <ThingName>万兽归息</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：万兽归息</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_3_12" Parent="Item_Mod_Body_Base">
+	    <ThingName>定星尾</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：定星尾</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>无形手·左</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：无形手·左</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_1_1" Parent="Item_Mod_Body_Base">
+	    <ThingName>无形手·右</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：无形手·右</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="1000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>3</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_2" Parent="Item_Mod_Body_Base">
+	    <ThingName>焚神手·左</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：焚神手·左</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_3" Parent="Item_Mod_Body_Base">
+	    <ThingName>冻魄掌·右</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：冻魄掌·右</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_4" Parent="Item_Mod_Body_Base">
+	    <ThingName>捉月手</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：捉月手</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_5" Parent="Item_Mod_Body_Base">
+	    <ThingName>逐日腿</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：逐日腿</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_6" Parent="Item_Mod_Body_Base">
+	    <ThingName>虚化之体</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：虚化之体</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_7" Parent="Item_Mod_Body_Base">
+	    <ThingName>千触邪臂</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：千触邪臂</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_8" Parent="Item_Mod_Body_Base">
+	    <ThingName>洞真之体</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：洞真之体</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_9" Parent="Item_Mod_Body_Base">
+	    <ThingName>外骨邪甲</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：外骨邪甲</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_10" Parent="Item_Mod_Body_Base">
+	    <ThingName>超越之心</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：超越之心</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="10000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>9</Rate>
+	</ThingDef>
+	  
+	<ThingDef Type="Item" Name="Item_Mod_SuperPart_Gong_5_11" Parent="Item_Mod_Body_Base">
+	    <ThingName>斥异之体</ThingName>
+	    <MaxStack>1</MaxStack>
+	    <TexPath>res\Sprs\object_yaozujueqi\object_miticanzhi01</TexPath>
+	    <Desc>体修可以对其进行感悟学习，以获得新的秘体知识：斥异之体</Desc>
+	    <Item>
+	      <BeMade>
+	        <WorkToMake>300</WorkToMake>
+	        <Quality>0</Quality>
+	        <CostItems>
+	          <Item name="Item_LingStone" count="3000"/>
+	        </CostItems>
+	      </BeMade>
+	    </Item>
+	  <Rate>6</Rate>
+	</ThingDef>
 </List></ThingDefs>
