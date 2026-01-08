@@ -43,6 +43,28 @@
 			<li Name="Use" Desc="Interact with the Casket" Appoint="2" Story="iaf_Story_Item_WuXingLingWu" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
 		</StoryBnts>
 	</ThingDef>
+	<ThingDef Type="Item" Name="iaf_Item_Debugging_SpiritRootEsoterica" Parent="MaterialBase">
+		<ThingName>Spirit Root Manual Trivializer</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_shixiazi01</TexPath>
+		<Desc>An Otherwordly casket, used to trivialize Spirit Root Manual acquisition.</Desc>	
+		<HideInOtherWorld>1</HideInOtherWorld>
+		<Beauty>1</Beauty>	
+		<Rate>9</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		
+		<IllustratedHandLabel>Dele</IllustratedHandLabel>
+		<Item Lable="Other">	
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>Box</FabaoSuffix>				
+		</Item>
+		<StoryBnts>
+			<li Name="Use" Desc="Interact with the Casket" Appoint="2" Story="iaf_Story_Item_SpiritRootEsoterica" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
 
 	<!--ThingDef Type="Item" Name="iaf_Item_Debugging_wudangyavismod" Parent="ToolBase">
 	<IllustratedHandLabel>Dele</IllustratedHandLabel>

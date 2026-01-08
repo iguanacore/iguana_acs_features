@@ -156,4 +156,110 @@
 			</li>
 		</Selections>
 	</Story>
+	<Story Name="iaf_Story_Item_SpiritRootEsoterica" Parent="BaseFillingStory">
+		<DisplayName>Trivializing of Spirit Root Acquisition Manual</DisplayName>
+		<Desc>Select desired Root State. Exiting removes the Item, Manual acquisition does not.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Cursed Ocher Essence (Earth)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Cursed Earths Magic"), 5, (world:RandomInt(1,4)), true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Blessed Ocher Essence (Earth)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Blessed Earths Magic"), 5, (world:RandomInt(1,5) + 3),true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Cursed Sagacity Tree (Metal)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Cursed Metals Magic"), 1, (world:RandomInt(1,4)), true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Blessed Sagacity Tree (Metal)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Blessed Metals Magic"), 1, (world:RandomInt(1,5) + 3),true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Cursed Prism Lotus (Water)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Cursed Waters Magic"), 3, (world:RandomInt(1,4)), true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Blessed Prism Lotus (Water)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Blessed Waters Magic"), 3, (world:RandomInt(1,5) + 3),true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Cursed Gnarled Vine (Wood)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Cursed Woods Magic"), 2, (world:RandomInt(1,4)), true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Blessed Gnarled Wine (Wood)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Blessed Woods Magic"), 2, (world:RandomInt(1,5) + 3),true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Cursed Crimson Fruit Tree (Fire)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Cursed Fires Magic"), 4, (world:RandomInt(1,4)), true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Blessed Crimson Fruit Tree (Fire)</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME] acquired Manual:"));
+				me:LearnEsotericCustomize(("Blessed Fires Magic"), 4, (world:RandomInt(1,5) + 3),true);
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Exit</Display>
+				<OKResult>
+				<![CDATA[	
+                me:AddMsg(XT("[NAME] has given up:"));
+				story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
 </List></Stories>
