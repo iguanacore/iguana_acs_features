@@ -14,7 +14,8 @@ namespace iguana_acs_features
         public static Dictionary<string, bool> config = new Dictionary<string, bool>()
             {
                 { "Qi Overlay rework", LingTexRework.enabled},
-                { "Custom Titles", TitleCreator.enabled }
+                { "Custom Titles", TitleCreator.enabled },
+                { "Increased Map Entering Limit", MapEnterCount.enabled }
 
             };
         static void OnLoadInit(string funcName)
@@ -58,6 +59,7 @@ namespace iguana_acs_features
         {
             LingTexRework.enabled = Configuration.GetCheckBox("iguana_acs_features", "Qi Overlay Rework");
             TitleCreator.enabled = Configuration.GetCheckBox("iguana_acs_features", "Custom Title");
+            MapEnterCount.enabled = Configuration.GetCheckBox("iguana_acs_features", "Increased Map Entering Limit");
 
             Dictionary<string, bool> newConfig = new Dictionary<string, bool>();
             foreach (KeyValuePair<string, bool> kvp in config)

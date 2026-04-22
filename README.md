@@ -12,7 +12,8 @@ A mod, consisting of new content for Amazing Cultivation Simulator, not just cha
 * Various Debug Items - Adds a bunch of debugging related items, not accessible during regular gameplay. Requires a method to spawn them in, like ModModifier. Also includes Ancient Casket Descummer.
 * Shendao Guard Derandomizer - Adds a building (Wild God Temple, under Sect) where you can convert Obsession Gems into Shendao Guard granting items. Alternative CN [available on the Workshop.](https://steamcommunity.com/sharedfiles/filedetails/?id=2019311555)
 * Physical Secret Body Derandomizer - Adds a building (Barbarian Statue, under Sect), where you can craft Secred Body recipes for Physical Cultivators. Alternative CN [availeble on the Workshop.](https://steamcommunity.com/sharedfiles/filedetails/?id=2306399532)
-* ZhenInvasion - Adds a building (Pagoda of Formations), where you can trigger an enemy invasion. 
+* ZhenInvasion - Adds a building (Pagoda of Formations), where you can trigger an enemy invasion.
+* Map Enter Count Increaser - Increases the the amount of disciples for entering other maps.
 
 ## Install instructions
 
@@ -63,6 +64,7 @@ This **does not** include new entities.
 Modifications applied by `iguana_acs_features.dll`.
 
 * `Wnd_NpcInfo.SetTitle` - Custom Titles, a prefix.
+* `Wnd_SelectNpc4Map.SelectPlace`, `Wnd_SelectNpc4Map.SelectWorld`- For Map Enter Count Increaser, transpilers changing the original 15/30 used for MaxValue to 127 for both.
 
 ### Other
 
